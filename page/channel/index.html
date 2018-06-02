@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src='../../js/jquery.min.js'></script>
+    <script src='../../js/jqueryScorll.js'></script>
+    <script src="../../js/swiper.min.js"></script>
+    <link rel="stylesheet" href="../../css/swiper.min.css" />
+    <link rel="stylesheet" href="../../css/button-3.css" />
+    <link rel="stylesheet" href="../../css/channel.css" />
+</head>
+<style>
+    .bottom {
+        width: 100%;
+        height: 285px;
+        background: url(../../img/bottom_bg@2x.png)no-repeat top center;
+        position: relative;
+    }
+
+</style>
+
+<body>
+    <div class='login'>
+        <div class="top-block">
+            <div class='top'>
+                <img onclick='login()' class="login_icon" src='../../img/logo@2x.png' />
+                <ul class="menuList">
+                    <li onclick='channel()' class='menu'>云渠道</li>
+                    <li onclick='caseField()' class='menu'>云案场</li>
+                    <li onclick='housRes()' class='menu'>云售楼</li>
+                    <li onclick='intermediary()' class='menu'>云中介</li>
+                    <li class='menu'>云物业</li>
+                    <li class='menu'>云商业</li>
+                    <li class='menu'>云租赁</li>
+                    <li class='menu'>云招商</li>
+                    <li class="menu">
+                        <img class='phoneImg' src='../../img/Phone@2x.png' />
+                    </li>
+                    <li class="menu nopadding">
+                        <span class='menu_num'>400-0809-202</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <img class='content_img' src='../../img/channel_banner@23x.png' />
+        </div>
+        <div class='content-background'>
+            <div class="content">
+                <div class='scrollflow -pop -opacity content_titleText'>BLUEPRINT</div>
+                <div class='scrollflow -slide-top -opacity  content_text'>
+                    <img src='../../img/2.png' />
+                    <div>蓝图</div>
+                </div>
+                <div class='content-img'>
+                    <img class='scrollflow -slide-top -opacity img' src='../../img/blueprint@23x.png' />
+                </div>
+            </div>
+        </div>
+        <div class='hous'>
+            <div class="housImg-block">
+                <div class="scrollflow -pop -opacity housMenu">
+                    <span class="housMenu-block active" onclick="changeMenu(0)">
+                        <div>项目管理</div>
+                        <div class='housMenu-text'>CUSTOMER MANAGEMENT</div>
+                    </span>
+                    <span class="housMenu-block" onclick="changeMenu(1)">
+                        <div>推荐管理</div>
+                        <div class='housMenu-text'>TRANSACTION MANAGEMENT</div>
+                    </span>
+                    <span class="housMenu-block" onclick="changeMenu(2)">
+                        <div>结佣管理</div>
+                        <div class='housMenu-text'>FINANCIAL MANAGEMENT</div>
+                    </span>
+                </div>
+                <div class="detail-block">
+                    <!-- 1项目管理 -->
+                    <div class="detail active">
+                        <div class='bousBottom'>
+                            <img class='scrollflow -slide-top -opacity' src='../../img/projectmanagement@24x.png' />
+                            <div class='bousBottom-text'>
+                                <div class='transition'>
+                                    <img src='../../img/circle_1@2x.png' />
+                                    <span class='bousBottom-text-head'>项目快速展示</span>
+                                </div>
+                                <div class='transition a'>
+                                    <img src='../../img/circle_2@2x.png' />
+                                    <span class='bousBottom-text-head'>快速传播，进行“病毒式营销”</span>
+                                </div>
+                                <div class='transition b'>
+                                    <img src='../../img/circle_3@2x.png' />
+                                    <span class='bousBottom-text-head'>多维度提供项目信息，加快经纪人工作效率</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='Analysis pos-relative'>
+                            <img class='img' src='../../img/34@2x.png' />
+                            <div class='scrollflow -slide-left -opacity img-top-text a pos-absolute'>
+                                <div class='text'>ITEM INFORMATION</div>
+                                <div class='tip'>
+                                    <img src='../../img/2.png' />
+                                </div>
+                                <div class='text'>项目信息</div>
+                                <div class='text1'>高效快速展示项目信息</div>
+                            </div>
+                        </div>
+                        <div class='Analysis pos-relative'>
+                            <img class='img' src='../../img/35@2x.png' />
+                            <div class='scrollflow -slide-left -opacity img-top-text a pos-absolute'>
+                                <div class='text'>RAPID SPREAD</div>
+                                <div class='tip'>
+                                    <img src='../../img/2.png' />
+                                </div>
+                                <div class='text'>快速传播</div>
+                                <div class='text1'>一键传播</div>
+                                <div class='text1'>借用互联网新媒体进行</div>
+                                <div class='text1'>“病毒式营销”</div>
+                            </div>
+                        </div>
+                        <div class='Analysis pos-relative'>
+                            <img class='img' src='../../img/36@2x.png' />
+                            <div class='scrollflow -slide-left -opacity img-top-text a pos-absolute'>
+                                <div class='text'>MULTIDIMENSIONAL DISPLAY</div>
+                                <div class='tip'>
+                                    <img src='../../img/2.png' />
+                                </div>
+                                <div class='text'>多维度展示</div>
+                                <div class='text1'>多维度展示信息</div>
+                                <div class='text1'>为经纪人提供助力</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 推荐管理 -->
+                    <div class="detail">
+                        <div class='Analysis pos-relative'>
+                            <img class="scrollflow -slide-top -opacity" src='../../img/23@2x.png' />
+                            <div class='scrollflow -slide-bottom -opacity  bousBottom-text q'>
+                                <div class='text-padding'>
+                                    <img src='../../img/circle_1@2x.png' />
+                                    <span class='bousBottom-text-head'>系统自动判客</span>
+                                </div>
+                                <div class='text-padding'>
+                                    <img src='../../img/circle_2@2x.png' />
+                                    <span class='bousBottom-text-head'>方便快捷确认到访信息</span>
+                                </div>
+                                <div class='text-padding'>
+                                    <img src='../../img/circle_3@2x.png' />
+                                    <span class='bousBottom-text-head'>规范操作，实现全过程把控</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='Analysis pos-relative'>
+                            <img class='img' src='../../img/24@2x.png' />
+                            <div class='scrollflow -slide-right -opacity img-top-text b pos-absolute'>
+                                <div class='text left'>AUTOMATICALL TO THE GUEST</div>
+                                <div class='tip left'>
+                                    <img src='../../img/2.png' />
+                                </div>
+                                <div class='text left'>自动判客</div>
+                                <div class='text1 left'>操作简单快捷</div>
+                                <div class='text1 left'>大大提升报备速度</div>
+                            </div>
+                        </div>
+                        <div class='Analysis pos-relative'>
+                            <img class='img' src='../../img/25@2x.png' />
+                            <div class='scrollflow -slide-left -opacity  img-top-text c pos-absolute'>
+                                <div class='text'>MULTIDIMENSIONAL DISPLAY</div>
+                                <div class='tip'>
+                                    <img src='../../img/2.png' />
+                                </div>
+                                <div class='text'>快速确认</div>
+                                <div class='text1'>实时记录</div>
+                                <div class='text1'>补全信息</div>
+                                <div class='text1'>节省开发商时间</div>
+                            </div>
+                        </div>
+                        <div class='Analysis pos-relative'>
+                            <img class='img' src='../../img/26@2x.png' />
+                            <div class='scrollflow -slide-left -opacity img-top-text d pos-absolute'>
+                                <div class='text'>OPERATION SPECIFICATION</div>
+                                <div class='tip'>
+                                    <img src='../../img/2.png' />
+                                </div>
+                                <div class='text'>操作规范</div>
+                                <div class='text1'>规范操作</div>
+                                <div class='text1'>避免财务漏洞</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 结佣管理 -->
+                    <div class="detail">
+                        <div class='bousBottom mb-20'>
+                            <img class="scrollflow -pop -opacity KnotImg" src='../../img/Knotcommission@2x.png' />
+                            <div class='scrollflow -slide-left -opacity  bousBottom-text a'>
+                                <span class='row'>
+                                    <img src='../../img/circle_1@2x.png' />
+                                    <span class='bousBottom-text-head'>结佣流程标准化</span>
+                                </span>
+                                <span class='row'>
+                                    <img src='../../img/circle_2@2x.png' />
+                                    <span class='bousBottom-text-head'>灵活设置，满足多种模式</span>
+                                </span>
+                                <span class='row'>
+                                    <img src='../../img/circle_3@2x.png' />
+                                    <span class='bousBottom-text-head'>结佣环节严谨，避免财务漏洞</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class='Analysis pos-relative'>
+                            <img class='img' src='../../img/14@2x.png' />
+                            <div class='scrollflow -slide-left -opacity img-top-text a pos-absolute'>
+                                <div class='text'>FLEXIBLE SETTING RULES</div>
+                                <div class='tip'>
+                                    <img src='../../img/2.png' />
+                                </div>
+                                <div class='text'>灵活设置</div>
+                            </div>
+                            <div class='scrollflow -slide-left -opacity  bousBottom-text b pos-absolute'>
+                                <span>
+                                    <img src='../../img/circle_1@2x.png' />
+                                    <span class='bousBottom-text-head'>可预设开始时间，结束时间</span>
+                                </span>
+                                <span class='text-bottom-right'>
+                                    <img src='../../img/circle_2@2x.png' />
+                                    <span class='bousBottom-text-head'>针对公司和个人单独设定结佣规定</span>
+                                </span>
+                                <div class='text-bottom'>
+                                    <img src='../../img/circle_3@2x.png' />
+                                    <span class='bousBottom-text-head'>根据不同物业类型可设定不同的结佣方式</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='Analysis pos-relative'>
+                            <img class='img' src='../../img/15@2x.png' />
+                            <div class='scrollflow -slide-left -opacity img-top-text a pos-absolute'>
+                                <div class='text'>COMMISSION IS RIGOROUS</div>
+                                <div class='tip'>
+                                    <img src='../../img/2.png' />
+                                </div>
+                                <div class='text'>结佣环节严谨</div>
+                            </div>
+                            <div class='scrollflow -slide-left -opacity  bousBottom-text f pos-absolute'>
+                                <span class='text-bottom'>
+                                    <img src='../../img/circle_1@2x.png' />
+                                    <span class='bousBottom-text-head'>按照不同时间的规划分别进行佣金结算申请</span>
+                                </span>
+                                <span class='text-bottom-right'>
+                                    <img src='../../img/circle_2@2x.png' />
+                                    <span class='bousBottom-text-head'>审核通过后，进行付款申请</span>
+                                </span>
+                                <div class='text-bottom'>
+                                    <img src='../../img/circle_3@2x.png' />
+                                    <span class='bousBottom-text-head'>可进行多次付款</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='bottom'>
+            <div class='bottom-background'>
+                <div class='bottom-block'>
+                    <span class='left'>
+                        <img src='../../img/telephone@2x.png' />
+                        <div class='text'>
+                            <span>
+                                <div class='phone_text'>联系电话</div>
+                                <div>TELEPHONE</div>
+                            </span>
+                        </div>
+                        <span class='phone_num'>400-0809-202</span>
+                        <div class='menu'>
+                            <span onclick='channel()' class='block'>云渠道</span>
+                            <span onclick='caseField()' class='block'>云案场</span>
+                            <span onclick='housRes()' class='block'>云售楼</span>
+                            <span onclick='intermediary()' class='block'>云中介</span>
+                            <span class='block'>云物业</span>
+                            <span class='block'>云商业</span>
+                            <span class='block'>云租赁</span>
+                            <span class='block'>云招商</span>
+                        </div>
+                    </span>
+                    <span class='right'>
+                        <img src='../../img/officialaccounts@2x.png' />
+                    </span>
+                </div>
+            </div>
+            <div class='call'>
+                <div>
+                    <span>COPTRIGHT 2007-2015 CCSOFT.COM.CN 川ICP备11014111号-1</span>
+                    <span class='callme'>联系我们</span>
+                    <span class='callme'>关于我们</span>
+                </div>
+            </div>
+        </div>
+          <!-- 联系我们  申请体检 -->
+          <div class='button'>
+                <div onclick='inspect()' class='button-icon'>
+                    <img/>
+                    <div class='text'>申请体检</div>
+                </div>
+                <div class='button-icon'>
+                    <img/>
+                    <div class='text'>在线咨询</div>
+                </div>
+                <div onclick='callme()' class='button-icon'>
+                    <img/>
+                    <div class='text'>联系我们</div>
+                </div>
+            </div>
+            <div onclick='close1()' class='up-box'>
+                <div class='up-box-information'>
+                    <div class='title'>云算全国联系方式</div>
+                    <div class='content'>
+                        <div class='row'>
+                            <span class='row-name'>成都</br>云算</span>
+                            <span class='information'>
+                                <div class='name-phone'>
+                                    <span>联系人：陆经理</span>
+                                    <span class='phone'>联系电话：13981935106</span>
+                                </div>
+                                <div>联系地址：（总部）成都市锦里西路107号锦江时代花园北楼14楼</div>
+                            </span>
+                        </div>
+                        <div class='row'>
+                            <span class='row-name'>重庆</br>云算</span>
+                            <span class='information'>
+                                <div class='name-phone'>
+                                    <span>联系人：吕经理</span>
+                                    <span class='phone'>联系电话：13012345932</span>
+                                </div>
+                                <div>联系地址：（分部）上清寺环球广场13楼</div>
+                            </span>
+                        </div>
+                        <div class='row'>
+                            <span class='row-name'>昆明</br>云算</span>
+                            <span class='information'>
+                                <div class='name-phone'>
+                                    <span>联系人：邹经理</span>
+                                    <span class='phone'>联系电话：13308040509</span>
+                                </div>
+                                <div>联系地址：（分部）昆明市盘龙区联盟路世纪俊园A-2-3008</div>
+                            </span>
+                        </div>
+                        <div class='row'>
+                            <span class='row-name'>台州</br>云算</span>
+                            <span class='information'>
+                                <div class='name-phone'>
+                                    <span>联系人：吕经理</span>
+                                    <span class='phone'>联系电话：18980767772</span>
+                                </div>
+                                <div>联系地址：（分部）台州市路桥区电子数码城3楼3C07</div>
+                            </span>
+                        </div>
+                        <div class='row'>
+                            <span class='row-name'>凯里</br>云算</span>
+                            <span class='information'>
+                                <div class='name-phone'>
+                                    <span>联系人：薛经理</span>
+                                    <span class='phone'>联系电话：18780076166</span>
+                                </div>
+                                <div>联系地址：（分部）贵州市凯里市民族风情园E区12栋</div>
+                            </span>
+                        </div>
+                    </div>
+                    <div class='close-Btn' onclick='close1()'>关闭</div>
+                </div>
+            </div>
+            <div onclick='close2()' class='up-inspect'>
+                <div class='up-box-information'>
+                    <div class='title next'>在线报名申请体验</div>
+                    <div class='content-next'>
+                        <div class='row'>
+                            <div class='name'>姓名</div>
+                            <input class="input" placeholder="请输入姓名" />
+                        </div>
+                        <div class='row'>
+                            <div class='name'>电话</div>
+                            <input class="input" placeholder="请输入电话" />
+                        </div>
+                        <div class='row'>
+                            <div class='name'>公司</div>
+                            <input class="input" placeholder="请输入公司" />
+                        </div>
+                    </div>
+                    <div onclick='close2()' class='close-Btn-inspect'>申请体验</div>
+                </div>
+            </div>
+    </div>
+    <script>
+
+        function changeMenu(menuIndex) {
+            let menuNodes = document.querySelectorAll(".housMenu-block");
+            let detailNodes = document.querySelectorAll(".detail");
+            menuNodes.forEach(function (value, index) {
+                value.classList.remove("active");
+                detailNodes[index].classList.remove("active");
+                if (menuIndex == index) {
+                    value.classList.add("active");
+                    detailNodes[index].classList.add("active");
+                }
+            });
+        }
+
+        function intermediary() {
+            location.href = '../intermediary/index.html'
+        }
+        function channel() {
+            location.href = '../channel/index.html'
+        }
+        function login() {
+            location.href = '../login/index.html'
+        }
+        function housRes() {
+            location.href = '../housRes/index.html'
+        }
+        function caseField() {
+            location.href = '../caseField/index.html'
+        }
+        function callme() {
+            let box = document.querySelector(".up-box");
+            let classList = box.classList;
+            classList.add('active');
+            let inspect = document.querySelector('.up-inspect');
+            inspect.classList.remove('active')
+        }
+        function close1() {
+            let box = document.querySelector('.up-box');
+            box.classList.remove('active')
+        }
+        function inspect() {
+            let box = document.querySelector('.up-inspect');
+            box.classList.add('active')
+            let inspect = document.querySelector('.up-box');
+            inspect.classList.remove('active')
+        }
+        function close2() {
+            let box = document.querySelector('.up-inspect');
+            box.classList.remove('active')
+        }
+
+
+
+    </script>
+</body>
+
+</html>

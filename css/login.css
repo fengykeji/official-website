@@ -1,0 +1,396 @@
+.login {
+    position: relative;
+}
+
+body {
+    margin: 0;
+}
+
+.top-block {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #0078d7;
+    z-index: 999;
+}
+
+.top-block .top {
+    color: #fff;
+    width: 1024px;
+    padding: 15px 0;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.top-block .top .login_icon {
+    vertical-align: middle;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menuList {
+    display: inline-block;
+    float: right;
+}
+
+.menuList .menu {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 14px;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+    vertical-align: middle;
+}
+
+.menuList .menu.nopadding {
+    padding-left: 0;
+}
+
+.menuList .menu:hover {
+    color: #777;
+    transition: color 0.5s;
+}
+
+.content-img {
+    margin-top: 35px;
+    z-index: 98;
+    position: relative;
+    left: -20px;
+    top: 0;
+
+}
+.content-box {}
+
+.content-box .bar-img {
+    top: 120px;
+    left: -60px;
+}
+
+@keyframes rotateAnim1 {
+    0% {
+        transform: translate(-600px, 0);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.content-box .bar-img .bar-img-a {
+    position: absolute;
+    top: -20px;
+    animation: rotateAnim1 2.4s;
+}
+
+.content-box .bar-img .bar-img-b {
+    position: absolute;
+    top: 58px;
+    animation: rotateAnim1 2.2s;
+}
+
+.content-box .bar-img .bar-img-c {
+    position: absolute;
+    top: 122px;
+    animation: rotateAnim1 2s;
+}
+
+.content-box .bar-img .bar-img-d {
+    position: absolute;
+    top: 187px;
+    animation: rotateAnim1 1.8s;
+}
+
+.content-box .bar-img .bar-img-e {
+    position: absolute;
+    top: 266px;
+    animation: rotateAnim1 1.6s;
+}
+
+.content-box .bar-img .bar-img-f {
+    position: absolute;
+    top: 332px;
+    animation: rotateAnim1 1.4s;
+}
+
+.content-box .bar-img .bar-img-g {
+    position: absolute;
+    top: 397px;
+    animation: rotateAnim1 1.2s;
+}
+
+.content-box .bar-img .bar-img-h {
+    position: absolute;
+    top: 462px;
+    animation: rotateAnim1 1s;
+}
+
+.content-box .bar-img .bar-img-i {
+    position: absolute;
+    top: 20px;
+    left: 850px;
+    animation: rotateAnim 0.8s;
+}
+
+@keyframes rotateAnim {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.content-box .bar-img .bar-img-j {
+    position: absolute;
+    top: -17px;
+    left: 1100px;
+    animation: rotateAnim2 1s;
+}
+
+@keyframes rotateAnim2 {
+    0% {
+        transform: translate(500px, 0);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.content_titleText {
+    font-weight: 300;
+    font-size: 41px;
+    text-align: center;
+}
+
+.content_text {
+    margin: 0 0 40px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #3a3a3a;
+    line-height: 160%;
+    text-align: center;
+}
+
+.content {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.content_map_block {
+    text-align: center;
+}
+
+.content_lower {
+    background: #535353;
+    height: 820px;
+}
+
+.lower_1 {
+    padding-top: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin: 20px 0 20px 0;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+}
+
+.lower_2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+.lower_3 {
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding:30px 0;
+}
+
+.content .about {
+    margin-top: 100px;
+    text-align: left;
+    font-size: 14px;
+    color: #3b3b3b;
+    width: 600px;
+    text-indent: 28px;
+}
+
+.content .img {
+    margin-top: 100px;
+}
+
+
+.bottom-background {
+    width: 1124px;
+    margin: 0 auto;
+}
+
+.enterprise_img {
+    text-align: center;
+}
+
+.swiper-slide {
+    /* width: 130px; */
+}
+
+.block {
+    width: 130px;
+    height: 160px;
+}
+
+.certificates {
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+}
+
+.bottom-block {
+    padding: 60px 0 0 0;
+}
+
+.bottom-block .left {
+    display: inline-block;
+}
+
+.bottom-block .right {
+    display: inline-block;
+    padding-left: 360px;
+}
+
+.bottom .text {
+    color: #fff;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.bottom .phone_text {
+    letter-spacing: 10px;
+}
+
+.bottom .phone_num {
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 6px;
+}
+
+.bottom .menu {
+    padding: 15px 0;
+    color: #fff;
+}
+
+.call {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.call .callme {
+    padding: 0 12px;
+}
+
+.phoneImg {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.menu_num {
+    vertical-align: middle;
+}
+
+.menu .block {
+    padding-right: 15px;
+}
+
+.swiper-container {
+    width: 1024px;
+    padding-left: 41px;
+    padding-right: 4px;
+    margin: 410px auto 0 ;
+
+}
+
+.swiper-button-prev {
+    z-index: 99;
+}
+
+.text .text-1 {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 5px 20px 0;
+}
+
+.text .text-2 {
+    font-size: 12px;
+    color: #3b3b3b;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+
+.pos-relative {
+    position: relative;
+}
+.displayIagram{
+  
+}
+.img-size{
+    width: 300px;
+    height: 370px;
+    position: absolute;
+    left: 663px;
+    display: none;
+}
+.active{
+    display: inline-block;
+}
+.img-size1{
+    width: 300px;
+    height: 370px;
+    position: absolute;
+    left: 663px;
+    display: none;
+}
+.img-size2{
+    width: 300px;
+    height: 370px;
+    position: absolute;
+    left: 663px;
+    display: none;
+}
+.img-size3{
+    width: 300px;
+    height: 370px;
+    position: absolute;
+    left: 663px;
+    display: none;
+}
+.img-size4{
+    width: 300px;
+    height: 370px;
+    position: absolute;
+    left: 663px;
+    display: none;
+}
+.img-size5{
+    width: 300px;
+    height: 370px;
+    position: absolute;
+    left: 663px;
+    display: none;
+}

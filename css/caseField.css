@@ -1,0 +1,269 @@
+.detail-block .detail {
+    display: none;
+}
+
+.detail-block .detail.active {
+    display: inline-block;
+}
+
+.Analysis {
+    width: 100%;
+}
+
+.Analysis .img-top-text {
+    width: 800px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Analysis .img-top-text.a {
+    top: 38px;
+    right: 420px;
+}
+
+.Analysis .img-top-text.b {
+    top: -35px;
+    right: 420px;
+}
+
+.Analysis .img-top-text .text {
+    font-weight: 500;
+    font-size: 32px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.Analysis .img-top-text .text.white {
+    color: #fff;
+}
+
+.Analysis .tip {
+    text-align: center;
+    margin-right: 9px;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.Analysis .tip {
+    text-align: center;
+    margin-right: 9px;
+}
+
+.swiper-container {
+    width: 1024px;
+    margin-bottom:30px;
+}
+
+.swiper-button-prev {
+    z-index: 99;
+}
+
+.swiper-slide {
+    /* width: 300px;
+    height: 300px; */
+    margin-top: 100px;
+}
+.pos-absolute {
+    position: absolute;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.content_img {
+    width: 100%;
+    margin-top: 45px;
+}
+
+.content_img .img {
+    width: 100%;
+}
+
+.content_img .img-1 {
+    top: 100px;
+    left: 460px;
+}
+.content_img .img-2 {
+    top: 111px;
+    left: 635px;
+}
+
+.content_img .img-3 {
+    top: 160px;
+    left: 1024px;
+}
+
+.content_img .img-4 {
+    top: 320px;
+    left: 930px;
+}
+
+.hous {
+    text-align: center;
+    background-color: #f6f6f6;
+    vertical-align: middle;
+}
+
+.housImg-block {}
+
+.housMenu {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 20px;
+    display: inline-block;
+}
+
+.housMenu-block {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #cbcbcb;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+    margin: 0 10px
+}
+
+.housMenu-block.active {
+    background-color: #fafafc;
+    transition: 1s;
+}
+
+.housMenu-text {
+    padding-top: 8px;
+    color: #808080;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.Analysis {
+    width: 100%;
+}
+
+.Analysis .img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.bottom-background {
+    width: 1124px;
+    margin: 0 auto;
+}
+
+.bottom-block {
+    padding: 60px 0 0 0;
+}
+
+.bottom-block .left {
+    display: inline-block;
+}
+
+.bottom-block .right {
+    display: inline-block;
+    padding-left: 360px;
+}
+
+.bottom .text {
+    color: #fff;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.bottom .phone_text {
+    letter-spacing: 10px;
+}
+
+.bottom .phone_num {
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 6px;
+}
+
+.bottom .menu {
+    padding: 15px 0;
+    color: #fff;
+}
+
+.call {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.call .callme {
+    padding: 0 12px;
+}
+
+.detail-block .detail {
+    display: none;
+}
+
+.detail-block .detail.active {
+    display: inline-block;
+}
+body {
+    margin: 0;
+}
+
+.top-block {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #0078d7;
+    z-index: 999;
+}
+
+.top-block .top {
+    color: #fff;
+    width: 1024px;
+    padding: 15px 0;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.top-block .top .login_icon {
+    vertical-align: middle;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menuList {
+    display: inline-block;
+    float: right;
+}
+
+.menuList .menu {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 14px;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+    vertical-align: middle;
+}
+
+.menuList .menu.nopadding {
+    padding-left: 0;
+}
+
+.menuList .menu:hover {
+    color: #777;
+    transition: color 0.5s;
+}

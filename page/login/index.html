@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src='../../js/jquery.min.js'></script>
+    <script src='../../js/jqueryScorll.js'></script>
+    <script src="../../js/swiper.min.js"></script>
+    <link rel="stylesheet" href="../../css/swiper.min.css" />
+    <link rel="stylesheet" href="../../css/button-3.css" />
+    <link rel="stylesheet" href="../../css/login.css" />
+</head>
+<style>
+    .bottom {
+        width: 100%;
+        height: 285px;
+        background: url(../../img/bottom_bg@2x.png)no-repeat top center;
+        position: relative;
+    }
+
+    .dot {
+        position: relative;
+        display: inline-block;
+        width: 19px;
+        height: 19px;
+        background-image: url(../../img/blue@2x.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: 99;
+    }
+
+    .dot:hover {
+        width: 19px;
+        height: 19px;
+        background: url(../../img/yellow@2x.png);
+    }
+
+    .content_map {
+        display: inline-block;
+        background: url(../../img/map@2x.png) no-repeat;
+        background-size: contain;
+        height: 560px;
+        padding: 50px 0;
+        position: relative;
+        width: 717px;
+    }
+
+    .content-background {
+        height: 770px;
+        padding: 50px 0;
+        background: url(../../img/about-bg@2x.png) no-repeat top center;
+    }
+
+    .dot .alert {
+        position: absolute;
+        display: none;
+        width: 441px;
+        height: 164px;
+        bottom: -5px;
+        right: 0;
+        text-align: left;
+    }
+
+    .dot .alert img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .dot .alert .text {
+        position: absolute;
+        display: inline-block;
+        top: 20px;
+        left: 50px;
+    }
+
+    .dot:hover .alert {
+        display: inline-block;
+    }
+
+    .dot0 {
+        position: absolute;
+        top: 224px;
+        right: 173px;
+    }
+
+    .dot1 {
+        position: absolute;
+        top: 372px;
+        right: 278px;
+    }
+
+    .dot2 {
+        position: absolute;
+        top: 470px;
+        right: 370px;
+    }
+
+    .dot3 {
+        position: absolute;
+        top: 423px;
+        right: 292px;
+    }
+
+    .dot4 {
+        position: absolute;
+        top: 350px;
+        right: 340px;
+    }
+</style>
+
+<body>
+    <div class='login'>
+        <div class="top-block">
+            <div class='top'>
+                <img onclick='login()' class="login_icon" src='../../img/logo@2x.png' />
+                <ul class="menuList">
+                    <li onclick='channel()' class='menu'>云渠道</li>
+                    <li onclick='caseField()' class='menu'>云案场</li>
+                    <li onclick='housRes()' class='menu'>云售楼</li>
+                    <li onclick='intermediary()' class='menu'>云中介</li>
+                    <li class='menu'>云物业</li>
+                    <li class='menu'>云商业</li>
+                    <li class='menu'>云租赁</li>
+                    <li class='menu'>云招商</li>
+                    <li class="menu">
+                        <img class='phoneImg' src='../../img/Phone@2x.png' />
+                    </li>
+                    <li class="menu nopadding">
+                        <span class='menu_num'>400-0809-202</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class='content-box pos-relative'>
+            <img class='content-img' src='../../img/mask@2x.png' />
+            <div class='bar-img pos-absolute'>
+                <img class='bar-img-a' src='../../img/Cloudlease@2x.png' />
+                <img class='bar-img-b' src='../../img/Cloudproperty@2x.png' />
+                <img class='bar-img-c' src='../../img/Cloudinvestment@2x.png' />
+                <img class='bar-img-d' src='../../img/Cloudbusiness@2x.png' />
+                <img class='bar-img-e' src='../../img/Salesofcloud@2x.png' />
+                <img class='bar-img-f' src='../../img/fieldofcloud@2x.png' />
+                <img class='bar-img-g' src='../../img/Cloudmediation@2x.png' />
+                <img class='bar-img-h' src='../../img/Cloudchannel@2x.png' />
+                <img class='bar-img-i' src='../../img/main@2x.png' />
+                <img class='bar-img-j' src='../../img/text_banner@2x.png' />
+            </div>
+        </div>
+        <div class='content-background'>
+            <div class="content">
+                <div class='scrollflow -pop -opacity content_titleText'>ABOUT CLOUD</div>
+                <div class='scrollflow -slide-top -opacity desc content_text'>
+                    <img src='../../img/2.png' />
+                    <div>关于云算</div>
+                </div>
+                <div class='scrollflow -slide-right -opacity about'>
+                    成都云算科技有限公司，是一家专注致力于房地产行业信息化领域的研究及应用，专业提供
+                    <br> 数字化精准营销整体解决方案的供应商。经过多年与房产企业的深入合作和交流，结合
+                    <br> 房地 产企业的管理特点与与时俱进的市场要求，我们先后推出了“云案场、云售楼、
+                    <br> 云展厅、云VR、云AR、云商业、云数据、云呼叫”云系列产品，以整体提升房产
+                    <br> 企业的核心竞争力，帮助过万达、恒大、华宇等众多房产企业在科技售楼中取
+                    <br> 得成功。目前在成都、重庆、北京、昆明、台州、黔东南等地已建立起完
+                    <br> 善的服务体系，成都云算科技有限公司将与所有的业界同仁一道，
+                    <br> 不断探索、研究、创新、分享优秀的行业管理智慧和经验，
+                    <br> 为推动房地产行业健康和可持续发展做出贡献！
+                </div>
+                <div class="scrollflow -slide-bottom -opacity img">
+                    <img src='../../img/wh.png' />
+                </div>
+            </div>
+        </div>
+        <div class="content_map_block">
+            <div class='content_map'>
+                <div class='scrollflow -pop -opacity content_titleText'>CONTACT</div>
+                <div class='scrollflow -slide-top -opacity desc content_text'>
+                    <img src='../../img/2.png' />
+                    <div>联系我们</div>
+                </div>
+                <span class="dot dot0">
+                    <span class="alert">
+                        <img src="../../img/coordinates_bg@2x.png" />
+                        <span class="text">
+                            <div class='text-1'>台州云算（总部）</div>
+                            <div class='text-2'>地址：台州市路桥区电子数码城3楼3C07</div>
+                            <div class='text-2'>电话：028-8549683 QQ：25700823</div>
+                        </span>
+                    </span>
+                </span>
+                <span class='dot dot1'>
+                    <span class=" alert">
+                        <img src="../../img/coordinates_bg@2x.png" />
+                        <span class="text">
+                            <div class='text-1'>重庆云算（分部）</div>
+                            <div class='text-2'>地址：重庆市上清市环球广场13楼</div>
+                            <div class='text-2'>电话：028-8549683 QQ：25700823</div>
+                        </span>
+                    </span>
+                </span>
+                <span class='dot dot2'>
+                    <span class="alert">
+                        <img src="../../img/coordinates_bg@2x.png" />
+                        <span class="text">
+                            <div class='text-1'>北京云算（分部）</div>
+                            <div class='text-2'>地址：北京市海淀区信息路甲号20号B座02B室</div>
+                            <div class='text-2'>电话：028-8549683 QQ：25700823</div>
+                        </span>
+                    </span>
+                </span>
+                <span class='dot dot3'>
+                    <span class="alert">
+                        <img src="../../img/coordinates_bg@2x.png" />
+                        <span class="text">
+                            <div class='text-1'>昆明云算（总部）</div>
+                            <div class='text-2'>地址：昆明市盘龙区联盟路实际俊园A-2-3008</div>
+                            <div class='text-2'>电话：028-8549683 QQ：25700823</div>
+                        </span>
+                    </span>
+                </span>
+                <span class='dot dot4'>
+                    <span class="alert">
+                        <img src="../../img/coordinates_bg@2x.png" />
+                        <span class="text">
+                            <div class='text-1'>成都云算（总部）</div>
+                            <div class='text-2'>地址：成都市锦里西路107号晋江时代花园北楼14楼</div>
+                            <div class='text-2'>电话：028-8549683 QQ：25700823</div>
+                        </span>
+                    </span>
+                </span>
+            </div>
+        </div>
+
+        <div class='enterprise_img'>
+            <div class='scrollflow -pop -opacity content_titleText'>CHOLICE CLOUD COMPUTING</div>
+            <div class='scrollflow -slide-top -opacity desc content_text'>
+                <img src='../../img/2.png' />
+                <div>他们也选择了云算科技</div>
+            </div>
+            <div class='scrollflow -pop -opacity'>
+                <div>
+                    <img src='../../img/1_1@2x.png' />
+                    <img src='../../img/1_2@2x.png' />
+                    <img src='../../img/1_3@2x.png' />
+                    <img src='../../img/1_4@2x.png' />
+                </div>
+                <div>
+                    <img src='../../img/2_1@2x.png' />
+                    <img src='../../img/2_2@2x.png' />
+                    <img src='../../img/2_3@2x.png' />
+                    <img src='../../img/2_4@2x.png' />
+                </div>
+                <div>
+                    <img src='../../img/3_1@2x.png' />
+                    <img src='../../img/3_2@2x.png' />
+                    <img src='../../img/3_3@2x.png' />
+                    <img src='../../img/3_4@2x.png' />
+                </div>
+                <div>
+                    <img src='../../img/4_1@2x.png' />
+                    <img src='../../img/4_2@2x.png' />
+                    <img src='../../img/4_3@2x.png' />
+                    <img src='../../img/4_4@2x.png' />
+                </div>
+            </div>
+        </div>
+        <div class='content_lower'>
+            <div class='scrollflow -pop -opacity lower_1'>HONOR OF QUALIFICATION</div>
+            <div class='scrollflow -pop -opacity lower_2'>资质荣誉</div>
+            <div class='scrollflow -slide-bottom -opacity desc lower_3'>
+                <div>荣获“高新技术企业”认证；</div>
+                <div>8项专利 6项软著</div>
+            </div>
+            <!-- 展示图 -->
+            <div class='displayIagram'>
+                <div onclick="closeImg(this)">
+                    <img class='img-size img' src='../../img/certificate.png' />
+                </div>
+                <div onclick="closeImg(this)">
+                    <img class='img-size img1' src='../../img/certificate1.png' />
+                </div>
+                <div onclick="closeImg(this)">
+                    <img class='img-size img2' src='../../img/certificate2.png' />
+                </div>
+                <div onclick="closeImg(this)">
+                    <img class='img-size img3' src='../../img/certificate3.png' />
+                </div onclick="closeImg(this)">
+                <div onclick="closeImg(this)">
+                    <img class='img-size img4' src='../../img/certificate4.png' />
+                </div>
+                <div onclick="closeImg(this)">
+                    <img class='img-size img5' src='../../img/certificate5.png' />
+                </div>
+            </div>
+            <!-- 轮播图 -->
+            <div class="swiper-container" id="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img onclick='showImg("img")' class='block' src='../../img/certificate.png' />
+                    </div>
+                    <div class="swiper-slide">
+                        <img onclick='showImg("img1")' class='block' src='../../img/certificate1.png' />
+                    </div>
+                    <div class="swiper-slide">
+                        <img onclick='showImg("img2")' class='block' src='../../img/certificate2.png' />
+                    </div>
+                    <div class="swiper-slide">
+                        <img onclick='showImg("img3")' class='block' src='../../img/certificate3.png' />
+                    </div>
+                    <div class="swiper-slide">
+                        <img onclick='showImg("img4")' class='block' src='../../img/certificate4.png' />
+                    </div>
+                    <div class="swiper-slide">
+                        <img onclick='showImg("img5")' class='block' src='../../img/certificate5.png' />
+                    </div>
+                </div>
+                <div class="swiper-button-prev swiper-button-white"></div>
+                <div class="swiper-button-next swiper-button-next swiper-button-white"></div>
+            </div>
+
+        </div>
+        <div class='bottom'>
+            <div class='bottom-background'>
+                <div class='bottom-block'>
+                    <span class='left'>
+                        <img src='../../img/telephone@2x.png' />
+                        <div class='text'>
+                            <span>
+                                <div class='phone_text'>联系电话</div>
+                                <div>TELEPHONE</div>
+                            </span>
+                        </div>
+                        <span class='phone_num'>400-0809-202</span>
+                        <div class='menu'>
+                            <span onclick='channel()' class='block'>云渠道</span>
+                            <span onclick='caseField()' class='block'>云案场</span>
+                            <span onclick='housRes()' class='block'>云售楼</span>
+                            <span onclick='intermediary()' class='block'>云中介</span>
+                            <span class='block'>云物业</span>
+                            <span class='block'>云商业</span>
+                            <span class='block'>云租赁</span>
+                            <span class='block'>云招商</span>
+                        </div>
+                    </span>
+                    <span class='right'>
+                        <img src='../../img/officialaccounts@2x.png' />
+                    </span>
+                </div>
+            </div>
+            <div class='call'>
+                <div>
+                    <span>COPTRIGHT 2007-2015 CCSOFT.COM.CN 川ICP备11014111号-1</span>
+                    <span class='callme'>联系我们</span>
+                    <span class='callme'>关于我们</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 联系我们  申请体检 -->
+        <div class='button'>
+            <div onclick='inspect()' class='button-icon'>
+                <img/>
+                <div class='text'>申请体检</div>
+            </div>
+            <div class='button-icon'>
+                <img/>
+                <div class='text'>在线咨询</div>
+            </div>
+            <div onclick='callme()' class='button-icon'>
+                <img/>
+                <div class='text'>联系我们</div>
+            </div>
+        </div>
+        <div onclick='close1()' class='up-box'>
+            <div class='up-box-information'>
+                <div class='title'>云算全国联系方式</div>
+                <div class='content'>
+                    <div class='row'>
+                        <span class='row-name'>成都</br>云算</span>
+                        <span class='information'>
+                            <div class='name-phone'>
+                                <span>联系人：陆经理</span>
+                                <span class='phone'>联系电话：13981935106</span>
+                            </div>
+                            <div>联系地址：（总部）成都市锦里西路107号锦江时代花园北楼14楼</div>
+                        </span>
+                    </div>
+                    <div class='row'>
+                        <span class='row-name'>重庆</br>云算</span>
+                        <span class='information'>
+                            <div class='name-phone'>
+                                <span>联系人：吕经理</span>
+                                <span class='phone'>联系电话：13012345932</span>
+                            </div>
+                            <div>联系地址：（分部）上清寺环球广场13楼</div>
+                        </span>
+                    </div>
+                    <div class='row'>
+                        <span class='row-name'>昆明</br>云算</span>
+                        <span class='information'>
+                            <div class='name-phone'>
+                                <span>联系人：邹经理</span>
+                                <span class='phone'>联系电话：13308040509</span>
+                            </div>
+                            <div>联系地址：（分部）昆明市盘龙区联盟路世纪俊园A-2-3008</div>
+                        </span>
+                    </div>
+                    <div class='row'>
+                        <span class='row-name'>台州</br>云算</span>
+                        <span class='information'>
+                            <div class='name-phone'>
+                                <span>联系人：吕经理</span>
+                                <span class='phone'>联系电话：18980767772</span>
+                            </div>
+                            <div>联系地址：（分部）台州市路桥区电子数码城3楼3C07</div>
+                        </span>
+                    </div>
+                    <div class='row'>
+                        <span class='row-name'>凯里</br>云算</span>
+                        <span class='information'>
+                            <div class='name-phone'>
+                                <span>联系人：薛经理</span>
+                                <span class='phone'>联系电话：18780076166</span>
+                            </div>
+                            <div>联系地址：（分部）贵州市凯里市民族风情园E区12栋</div>
+                        </span>
+                    </div>
+                </div>
+                <div class='close-Btn' onclick='close1()'>关闭</div>
+            </div>
+        </div>
+        <div onclick='close2()' class='up-inspect'>
+            <div class='up-box-information'>
+                <div class='title next'>在线报名申请体验</div>
+                <div class='content-next'>
+                    <div class='row'>
+                        <div class='name'>姓名</div>
+                        <input class="input" placeholder="请输入姓名" />
+                    </div>
+                    <div class='row'>
+                        <div class='name'>电话</div>
+                        <input class="input" placeholder="请输入电话" />
+                    </div>
+                    <div class='row'>
+                        <div class='name'>公司</div>
+                        <input class="input" placeholder="请输入公司" />
+                    </div>
+                </div>
+                <div onclick='close2()' class='close-Btn-inspect'>申请体验</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let swiper = new Swiper('#swiper', {
+            slidesPerView: 6,
+            spaceBetween: 5,
+            loop: true,
+            slideShadows: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+        function intermediary() {
+            location.href = '../intermediary/index.html'
+        }
+        function channel() {
+            location.href = '../channel/index.html'
+        }
+        function login() {
+            location.href = '../login/index.html'
+        }
+        function housRes() {
+            location.href = '../housRes/index.html'
+        }
+        function caseField() {
+            location.href = '../caseField/index.html'
+        }
+        function callme() {
+            let box = document.querySelector(".up-box");
+            let classList = box.classList;
+            classList.add('active');
+            let inspect = document.querySelector('.up-inspect');
+            inspect.classList.remove('active')
+        }
+        function close1() {
+            let box = document.querySelector('.up-box');
+            box.classList.remove('active')
+        }
+        function inspect() {
+            let box = document.querySelector('.up-inspect');
+            box.classList.add('active')
+            let inspect = document.querySelector('.up-box');
+            inspect.classList.remove('active')
+        }
+        function close2() {
+            let box = document.querySelector('.up-inspect');
+            box.classList.remove('active')
+        }
+        function showImg(value) {
+            let img = document.querySelector('.img-size'+'.'+value);
+                img.classList.add('active');
+        }
+        function closeImg(obj){
+            obj.classList.remove('active');
+        }
+
+    </script>
+</body>
+
+</html>

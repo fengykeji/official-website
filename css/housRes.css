@@ -1,0 +1,445 @@
+body {
+    margin: 0;
+}
+
+.top-block {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #0078d7;
+    z-index: 999;
+}
+
+.top-block .top {
+    color: #fff;
+    width: 1024px;
+    padding: 15px 0;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.top-block .top .login_icon {
+    vertical-align: middle;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menuList {
+    display: inline-block;
+    float: right;
+}
+
+.menuList .menu {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 14px;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+    vertical-align: middle;
+}
+
+.menuList .menu.nopadding {
+    padding-left: 0;
+}
+
+.menuList .menu:hover {
+    color: #777;
+    transition: color 0.5s;
+}
+.content-background-img{
+    width: 100%;
+}
+.content_img {
+    width: 100%;
+}
+
+.content_titleText {
+    font-weight: 300;
+    font-size: 41px;
+    text-align: center;
+}
+
+.content_text {
+    margin: 0 0 40px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #3a3a3a;
+    line-height: 160%;
+    text-align: center;
+}
+
+.content-background {
+    height: 770px;
+    padding: 50px 0;
+}
+
+.content {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.content_map_block {
+    text-align: center;
+}
+
+.content-img {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.content-img .img {
+    width: 100%;
+}
+
+.hous {
+    text-align: center;
+    background-color: #f6f6f6;
+    margin-top: 90px;
+}
+
+.housImg-block {}
+
+.housMenu {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 20px;
+    display: inline-block;
+}
+
+.housMenu-block {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #cbcbcb;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+    margin: 0 10px
+}
+
+.housMenu-block.active {
+    background-color: #fafafc;
+    transition: 1s;
+}
+
+.housMenu-text {
+    padding-top: 8px;
+    color: #808080;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.bousBottom-text {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+}
+
+.bousBottom-text.q {
+    top: -100px;
+    left: 330px;
+}
+
+.bousBottom-text.a {
+    text-align: center;
+}
+
+.bousBottom-text.a .row {
+    padding: 0 20px;
+
+}
+
+.bousBottom-text.b {
+    bottom: 40px;
+    left: 320px;
+}
+
+.bousBottom-text.f {
+    bottom: 40px;
+    left: 320px;
+}
+
+.text-bottom {
+    padding-top: 15px;
+}
+
+.bousBottom {
+    width: 1024px;
+    margin: 0 auto;
+}
+.bousBottom .left-img{
+ position: relative;
+ left: -330px;
+}
+.bousBottom .center-img{
+    position: relative;
+    left: -250px;
+    top: -50px;
+   }
+   .bousBottom .center-img1{
+    position: relative;
+    left: -280px;
+    top: -140px;
+   }
+
+.bousBottom .KnotImg {
+    width: 100%;
+}
+
+.detail .Analysis .KnotImg {
+    width: 100%;
+}
+
+.Analysis {
+    width: 100%;
+}
+
+.Analysis .img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.Analysis .img-top-text {
+    width: 800px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.Analysis .img-top-text.img {
+    top: 50px;
+    right: 437px;
+}
+
+.Analysis .img-top-text.a {
+    top: 60px;
+    right: 350px;
+}
+
+.Analysis .img-top-text.b {
+    top:150px;
+    left: 150px;
+}
+
+.Analysis .img-top-text.c {
+    top: 650px;
+    right: 280px;
+}
+
+.Analysis .img-top-text.d {
+    top: 50px;
+    right: 280px;
+}
+
+
+.Analysis .img-top-text .text {
+    font-weight: 500;
+    font-size: 32px;
+    letter-spacing: 5px;
+    text-align: right;
+}
+
+.Analysis .img-top-text .text.left {
+    font-weight: 500;
+    font-size: 32px;
+    letter-spacing: 5px;
+    text-align: left;
+}
+
+.Analysis .img-top-text .text1 {
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #555e67;
+    text-align: right;
+}
+
+.Analysis .img-top-text .text1.left {
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #555e67;
+    text-align: left;
+}
+
+.Analysis .tip {
+    text-align: right;
+    margin-right: 9px;
+}
+
+.Analysis .tip.left {
+    text-align: left;
+    margin-right: 9px;
+}
+
+.bottom-background {
+    width: 1124px;
+    margin: 0 auto;
+}
+
+.bottom-block {
+    padding: 60px 0 0 0;
+}
+
+.bottom-block .left {
+    display: inline-block;
+}
+
+.bottom-block .right {
+    display: inline-block;
+    padding-left: 360px;
+}
+
+.bottom .text {
+    color: #fff;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.bottom .phone_text {
+    letter-spacing: 10px;
+}
+
+.bottom .phone_num {
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 6px;
+}
+
+.bottom .menu {
+    padding: 15px 0;
+    color: #fff;
+}
+
+.call {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.call .callme {
+    padding: 0 12px;
+}
+
+.detail-block .detail {
+    display: none;
+}
+
+.detail-block .detail.active {
+    display: inline-block;
+}
+
+.bousBottom-text-head {
+    vertical-align: top;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.transition {
+    padding-bottom: 10px;
+    position: absolute;
+    z-index: 98px;
+    bottom:480px;
+    right: 0px;
+}
+
+.transition.a {
+    position: absolute;
+    z-index: 98px;
+    bottom:320px;
+    right: 35px;
+}
+
+.transition.b {
+    position: absolute;
+    z-index: 98px;
+    bottom:170px;
+    right: 55px;
+}
+.transition.d {
+    position: absolute;
+    z-index: 98px;
+    bottom:35px;
+    right: 75px;
+}
+.transition.g {
+    position: absolute;
+    z-index: 98px;
+    bottom:370px;
+    right:177px;
+}
+.transition.e {
+    position: absolute;
+    z-index: 98px;
+    bottom:255px;
+    right: 128px;
+}
+.transition.f {
+    position: absolute;
+    z-index: 98px;
+    bottom:118px;
+    right: -125px;
+}
+.transition.m {
+    position: absolute;
+    z-index: 98px;
+    bottom:378px;
+    right: -48px;
+}
+.transition.n {
+    position: absolute;
+    z-index: 98px;
+    bottom:252px;
+    right: 42px;
+}
+.transition.l {
+    position: absolute;
+    z-index: 98px;
+    bottom:120px;
+    right: -12px;
+}
+.text-padding{
+    padding-bottom: 20px;
+}
+.text-bottom-right{
+    padding-left: 30px;
+}
+.content-background-img .img-text-icon{
+    position: absolute;
+    top:153px;
+    right:118px;
+    animation: rotateAnim1 2s;
+
+}
+
+@keyframes rotateAnim1 {
+    0% {
+        transform: translate(600px, 0);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}

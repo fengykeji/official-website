@@ -320,8 +320,12 @@ li {
     width: 1024px;
     padding-left: 41px;
     padding-right: 4px;
-    margin: 410px auto 0 ;
+    margin: 10px auto 0 ;
 
+}
+
+.swiper-container .swiper-slide .block {
+    cursor: pointer;
 }
 
 .swiper-button-prev {
@@ -346,51 +350,22 @@ li {
 .pos-relative {
     position: relative;
 }
+
 .displayIagram{
-  
+    height: 400px;
 }
+
+.displayIagram>div{
+    text-align: center;
+}
+
+
 .img-size{
     width: 300px;
     height: 370px;
-    position: absolute;
     left: 663px;
     display: none;
 }
 .active{
     display: inline-block;
-}
-.img-size1{
-    width: 300px;
-    height: 370px;
-    position: absolute;
-    left: 663px;
-    display: none;
-}
-.img-size2{
-    width: 300px;
-    height: 370px;
-    position: absolute;
-    left: 663px;
-    display: none;
-}
-.img-size3{
-    width: 300px;
-    height: 370px;
-    position: absolute;
-    left: 663px;
-    display: none;
-}
-.img-size4{
-    width: 300px;
-    height: 370px;
-    position: absolute;
-    left: 663px;
-    display: none;
-}
-.img-size5{
-    width: 300px;
-    height: 370px;
-    position: absolute;
-    left: 663px;
-    display: none;
 }

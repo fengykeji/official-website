@@ -16,7 +16,7 @@
     .bottom {
         width: 100%;
         height: 285px;
-        background: url(../../img/bottom_bg@2x.png)no-repeat top center;
+        background: url(../../img/bottom_bg@2x.png) no-repeat top center;
         position: relative;
     }
 
@@ -275,7 +275,7 @@
             <!-- 展示图 -->
             <div class='displayIagram'>
                 <div onclick="closeImg(this)">
-                    <img class='img-size img' src='../../img/certificate.png' />
+                    <img class='active img-size img' src='../../img/certificate.png' />
                 </div>
                 <div onclick="closeImg(this)">
                     <img class='img-size img1' src='../../img/certificate1.png' />
@@ -499,6 +499,11 @@
             box.classList.remove('active')
         }
         function showImg(value) {
+            let bigImgNodeList = document.querySelectorAll(".img-size");
+            bigImgNodeList.forEach(function(value,index) {
+                value.classList.remove('active');
+            });
+
             let img = document.querySelector('.img-size'+'.'+value);
                 img.classList.add('active');
         }

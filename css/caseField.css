@@ -11,7 +11,9 @@
     background: url(../img/bottom_bg@2x.png)no-repeat top center;
     position: relative;
 }
-
+.caseField{
+    min-width: 1670px;
+}
 .Analysis {
     width: 100%;
 }

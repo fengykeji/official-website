@@ -8,7 +8,10 @@ body {
     background: url(../img/bottom_bg@2x.png)no-repeat top center;
     position: relative;
 }
-
+.housRes{
+    min-width: 1670px;
+    position: relative;
+}
 .top-block {
     position: fixed;
     width: 100%;

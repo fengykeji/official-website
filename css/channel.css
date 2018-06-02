@@ -7,7 +7,9 @@ body {
     background: url(../img/bottom_bg@2x.png)no-repeat top center;
     position: relative;
 }
-
+.channel{
+    min-width: 1670px;
+}
 
 .top-block {
     position: fixed;
@@ -17,7 +19,6 @@ body {
     background: #0078d7;
     z-index: 999;
 }
-
 .top-block .top {
     color: #fff;
     width: 1024px;

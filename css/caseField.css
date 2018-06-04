@@ -11,6 +11,12 @@
     background: url(../img/bottom_bg@2x.png)no-repeat top center;
     position: relative;
 }
+.menu .block {
+    padding-right: 20px;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+}
 .caseField{
     min-width: 1248px;
 }

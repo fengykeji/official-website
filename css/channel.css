@@ -10,7 +10,12 @@ body {
 .channel{
    min-width: 1248px;
 }
-
+.menu .block {
+    padding-right: 20px;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+}
 .top-block {
     position: fixed;
     width: 100%;

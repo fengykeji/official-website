@@ -12,6 +12,12 @@
     /* min-width: 1670px; */
     position: relative;
 }
+.menu .block {
+    padding-right: 20px;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+}
 .top-block {
     position: fixed;
     width: 100%;

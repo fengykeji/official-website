@@ -19,6 +19,13 @@ body {
     background: #0078d7;
     z-index: 999;
 }
+.menu .block {
+    padding-right: 20px;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+    
+}
 .content_img {
     width: 100%;
     padding-top: 45px;

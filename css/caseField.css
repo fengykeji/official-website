@@ -12,26 +12,33 @@
     position: relative;
 }
 .caseField{
-    /* min-width: 1670px; */
+    min-width: 1248px;
 }
 .Analysis {
-    width: 100%;
+    width: 1024px;
+    margin: 0 auto;
 }
 
 .Analysis .img-top-text {
-    width: 800px;
     font-size: 20px;
     font-weight: 500;
 }
 
 .Analysis .img-top-text.a {
-    top: 38px;
-    right: 420px;
+    top: 5%;
+    left: 35%;
 }
-
 .Analysis .img-top-text.b {
-    top: -35px;
-    right: 420px;
+    top: 4%;
+    left: 44%;
+}
+.Analysis .img-top-text.c {
+    top: 0;
+    left: 44%;
+}
+.Analysis .img-top-text.d {
+    top: 5%;
+    left: 38%;
 }
 
 .Analysis .img-top-text .text {
@@ -88,31 +95,11 @@
 .content_img {
     width: 100%;
     margin-top: 45px;
+    height: 623.63px;
 }
-
-.content_img .img {
+.content_img .img{
     width: 100%;
 }
-
-.content_img .img-1 {
-    top: 100px;
-    left: 460px;
-}
-.content_img .img-2 {
-    top: 111px;
-    left: 635px;
-}
-
-.content_img .img-3 {
-    top: 160px;
-    left: 1024px;
-}
-
-.content_img .img-4 {
-    top: 320px;
-    left: 930px;
-}
-
 .hous {
     text-align: center;
     background-color: #f6f6f6;
@@ -274,4 +261,36 @@ li {
 .menuList .menu:hover {
     color: #777;
     transition: color 0.5s;
+}
+.periphery{
+    width: 1024px;
+    margin: 0 auto;
+
+}
+.periphery .title-text{
+    padding-bottom: 20px;
+}
+.periphery .content{
+    width: 600px;
+    text-align: left;
+    display: inline-block;
+}
+.periphery .title-text .name{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.periphery .title-text .name-E{
+    font-size: 14px;
+    color: #333;
+    padding-left: 10px;
+}
+.periphery .but-text{
+    color: #555;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding-bottom: 30px
+}
+.swiper-wrapper{
+    margin-top: 20px;
 }

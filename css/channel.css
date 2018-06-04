@@ -8,7 +8,7 @@ body {
     position: relative;
 }
 .channel{
-    /* min-width: 1670px; */
+   min-width: 1248px;
 }
 
 .top-block {
@@ -67,7 +67,9 @@ li {
     width: 100%;
     padding-top: 45px;
 }
-
+.bousBottom .img{
+    width: 100%;
+}
 .content_titleText {
     font-weight: 300;
     font-size: 41px;
@@ -84,8 +86,6 @@ li {
 }
 
 .content-background {
-    height: 770px;
-    padding: 50px 0;
 }
 
 .content {
@@ -147,12 +147,12 @@ li {
     text-align: left;
     font-size: 20px;
     font-weight: 500;
-    position: relative;
 }
 
 .bousBottom-text.q {
-    top: -100px;
-    left: 330px;
+   position: absolute;
+   left: 276px;
+   bottom: 10px;
 }
 
 .bousBottom-text.a {
@@ -208,25 +208,28 @@ li {
 }
 
 .Analysis .img-top-text.a {
-    top: 60px;
-    right: 350px;
+    top:8%;
+    right: 20%;
 }
 
 .Analysis .img-top-text.b {
-    top: 55px;
-    left: 250px;
+    top:4%;
+    left: 15%;
 }
 
 .Analysis .img-top-text.c {
-    top: 650px;
-    right: 280px;
+    top:42%;
+    right: 18%;
 }
 
 .Analysis .img-top-text.d {
-    top: 50px;
-    right: 280px;
+    top:5%;
+    right: 15%;
 }
-
+.Analysis .img-top-text.e {
+    top:10%;
+    left: 35%;
+}
 
 .Analysis .img-top-text .text {
     font-weight: 500;

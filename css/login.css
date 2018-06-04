@@ -1,8 +1,7 @@
 .login {
-    position: relative;
-    min-width: 1024px;
-}
+    min-width: 1248px;
 
+}
 body {
     margin: 0;
 }
@@ -60,18 +59,22 @@ li {
 }
 
 .content-img {
-    margin-top: 35px;
     z-index: 98;
     position: relative;
-    left: -20px;
     top: 0;
-
 }
-.content-box {}
+.content-box {
+    margin-top: 35px;
+    position: relative;
+}
 
 .content-box .bar-img {
-    top: 120px;
-    left: -60px;
+    top: 20px;
+  
+}
+.content-box  .barImg{
+    display: block;
+    width: 30%;
 }
 
 @keyframes rotateAnim1 {
@@ -85,56 +88,64 @@ li {
 
 .content-box .bar-img .bar-img-a {
     position: absolute;
-    top: -20px;
+    top: 45px;
+    left: -100px;
     animation: rotateAnim1 2.4s;
 }
 
 .content-box .bar-img .bar-img-b {
     position: absolute;
-    top: 58px;
+    top: 123px;
+    left: -100px;
     animation: rotateAnim1 2.2s;
 }
 
 .content-box .bar-img .bar-img-c {
     position: absolute;
-    top: 122px;
+    top: 187px;
+    left: -100px;
     animation: rotateAnim1 2s;
 }
 
 .content-box .bar-img .bar-img-d {
     position: absolute;
-    top: 187px;
+    top: 252px;
+    left: -100px;
     animation: rotateAnim1 1.8s;
 }
 
 .content-box .bar-img .bar-img-e {
     position: absolute;
-    top: 266px;
+    top: 332px;
+    left: -100px;
     animation: rotateAnim1 1.6s;
 }
 
 .content-box .bar-img .bar-img-f {
     position: absolute;
-    top: 332px;
+    top: 397px;
+    left: -100px;
     animation: rotateAnim1 1.4s;
 }
 
 .content-box .bar-img .bar-img-g {
     position: absolute;
-    top: 397px;
+    top: 462px;
+    left: -100px;
     animation: rotateAnim1 1.2s;
 }
 
 .content-box .bar-img .bar-img-h {
     position: absolute;
-    top: 462px;
+    top: 527px;
+    left: -100px;
     animation: rotateAnim1 1s;
 }
 
-.content-box .bar-img .bar-img-i {
+.content-box .bar-img-i {
     position: absolute;
-    top: 20px;
-    left: 850px;
+    top:94px;
+    left: 660px;
     animation: rotateAnim 0.8s;
 }
 
@@ -147,16 +158,15 @@ li {
     }
 }
 
-.content-box .bar-img .bar-img-j {
+.content-box .bar-img-j {
     position: absolute;
-    top: -17px;
-    left: 1100px;
-    animation: rotateAnim2 1s;
+   top:60px;
+   right:98px;
+   animation: rotateAnim2 2s;
 }
-
 @keyframes rotateAnim2 {
     0% {
-        transform: translate(500px, 0);
+        transform: translate(0, -300px);
     }
     100% {
         transform: translate(0, 0);

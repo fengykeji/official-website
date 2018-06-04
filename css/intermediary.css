@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 .intermediary{
-    /* min-width: 1670px; */
+    min-width: 1248px;
 }
 .bottom {
     width: 100%;
@@ -243,20 +243,22 @@ li {
     }
 
     .Analysis .img-top-text {
-        width: 800px;
         font-size: 20px;
         font-weight: 500;
-
     }
 
     .Analysis .img-top-text.a {
-        top: 60px;
-        right: 350px;
+        top: 10%;
+        right:15%;
     }
 
     .Analysis .img-top-text.b {
-        top: 650px;
-        right: 350px;
+        top: 50%;
+        right:15%;
+    }
+    .Analysis .img-top-text.x {
+        top: 6%;
+        right:15%;
     }
 
     .Analysis .img-top-text .text {
@@ -293,8 +295,8 @@ li {
     }
 
     .bousBottom-text.q {
-        top: 200px;
-        left:140px;
+        top: 16%;
+        left:11%;
     }
     .text-padding{
         padding-bottom: 20px;

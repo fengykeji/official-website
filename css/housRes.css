@@ -1,4 +1,4 @@
-body {
+    body {
     margin: 0;
 }
 
@@ -64,7 +64,7 @@ li {
     transition: color 0.5s;
 }
 .content-background-img{
-    width: 100%;
+    position: relative;
 }
 .content_img {
     width: 100%;
@@ -186,19 +186,29 @@ li {
 }
 .bousBottom .left-img{
  position: relative;
- left: -330px;
+ left: -16%;
+ top: 5px;
 }
+.bousBottom .left-img2{
+    position: relative;
+    left: -10%;
+    top: 5px;
+   }
 .bousBottom .center-img{
     position: relative;
-    left: -250px;
+    left: -16%;
     top: -50px;
    }
    .bousBottom .center-img1{
     position: relative;
-    left: -280px;
+    left: -16%;
     top: -140px;
    }
-
+   .bousBottom .center-img2{
+    position: relative;
+    left: -10%;
+    top: -140px;
+   }
 .bousBottom .KnotImg {
     width: 100%;
 }
@@ -223,18 +233,18 @@ li {
 
 }
 .Analysis .img-top-text.img {
-    top: 50px;
-    right: 437px;
+    top: 3%;
+    left:25%;
 }
 
 .Analysis .img-top-text.a {
-    top: 60px;
-    right: 350px;
+    top: 9%;
+    right: 12%;
 }
 
 .Analysis .img-top-text.b {
-    top:150px;
-    left: 150px;
+    top:16%;
+    left: 12%;
 }
 
 .Analysis .img-top-text.c {
@@ -246,7 +256,14 @@ li {
     top: 50px;
     right: 280px;
 }
-
+.Analysis .img-top-text.e {
+    top:5%;
+    left:8%;
+}
+.Analysis .img-top-text.f {
+    top:7%;
+    left:3%;
+}
 
 .Analysis .img-top-text .text {
     font-weight: 500;
@@ -373,63 +390,63 @@ li {
     position: absolute;
     z-index: 98px;
     bottom:480px;
-    right: 0px;
+    right: -66px;
 }
 
 .transition.a {
     position: absolute;
     z-index: 98px;
-    bottom:320px;
-    right: 35px;
+    bottom:316px;
+    right: -39px;
 }
 
 .transition.b {
     position: absolute;
     z-index: 98px;
-    bottom:170px;
-    right: 55px;
+    bottom:168px;
+    right: -19px;
 }
 .transition.d {
     position: absolute;
     z-index: 98px;
     bottom:35px;
-    right: 75px;
+    right: 0px;
 }
 .transition.g {
     position: absolute;
     z-index: 98px;
-    bottom:370px;
-    right:177px;
+    bottom:376px;
+    right:37px;
 }
 .transition.e {
     position: absolute;
     z-index: 98px;
     bottom:255px;
-    right: 128px;
+    right: 17px;
 }
 .transition.f {
     position: absolute;
     z-index: 98px;
     bottom:118px;
-    right: -125px;
+    right: -213px;
 }
 .transition.m {
     position: absolute;
     z-index: 98px;
     bottom:378px;
-    right: -48px;
+    right: -21%;
 }
 .transition.n {
     position: absolute;
     z-index: 98px;
     bottom:252px;
-    right: 42px;
+    right: -13%;
 }
 .transition.l {
     position: absolute;
     z-index: 98px;
     bottom:120px;
-    right: -12px;
+    right: -17%;
 }
 .text-padding{
     padding-bottom: 20px;
@@ -439,15 +456,15 @@ li {
 }
 .content-background-img .img-text-icon{
     position: absolute;
-    top:153px;
-    right:118px;
-    animation: rotateAnim1 2s;
+    top:25%;
+    left: 55%;
+    animation: rotateAnim1 1s;
 
 }
 
 @keyframes rotateAnim1 {
     0% {
-        transform: translate(600px, 0);
+        transform: translate(0, -300px);
     }
     100% {
         transform: translate(0, 0);

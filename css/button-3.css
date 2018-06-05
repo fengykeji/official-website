@@ -9,14 +9,14 @@
     user-select: none;
     outline: none;
     border-radius: 4px;
-    animation: rotateAnim3 4s;
+    animation: rotateAnim3 3s;
 }
 @keyframes rotateAnim3 {
     0% {
         background:none;
     }
     100% {
-        background: #038ee3;
+        background: #189dfe;
     }
 }
 

@@ -265,9 +265,25 @@ li {
 }
 
 .menuList .menu:hover {
-    color: #777;
+    color: #7cc5ff;
     transition: color 0.5s;
 }
+.content_img .img-text-icon{
+    position: absolute;
+    top:22%;
+    left: 61%;
+    animation: rotateAnim1 1s;
+}
+
+@keyframes rotateAnim1 {
+    0% {
+        transform: translate(0, -300px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
 .periphery{
     width: 1024px;
     margin: 0 auto;

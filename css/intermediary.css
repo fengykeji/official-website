@@ -70,7 +70,7 @@ li {
 }
 
 .menuList .menu:hover {
-    color: #777;
+    color: #7cc5ff;
     transition: color 0.5s;
 }
 
@@ -88,7 +88,21 @@ li {
     line-height: 160%;
     text-align: center;
 }
-
+.pos-relative .img-text-icon{
+    position: absolute;
+    width: 58%;
+    top:19%;
+    left:5%;
+    animation: rotateAnim1 1s;
+}
+@keyframes rotateAnim1 {
+    0% {
+        transform: translate(0, -300px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
 .content-background {
     height: 770px;
     padding: 50px 0;

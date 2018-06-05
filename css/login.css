@@ -72,8 +72,8 @@ li {
 
 .content-box .bar-img {
     height: 100%;
-    top: 20px;
-    left: -4%;
+    top: 7%;
+    left: 2%;
 }
 
 .content-box .bar-img img{
@@ -96,66 +96,66 @@ li {
 
 
 .content-box .bar-img .bar-img-a {
-    /* position: absolute; */
-    /* top: 45px; */
-    /* left: -100px; */
+    cursor: pointer;
+    user-select: none;
+    outline: none;
     height: 12%;
     animation: rotateAnim1 2.4s;
 }
 
 .content-box .bar-img .bar-img-b {
-    /* position: absolute; */
-    /* top: 123px; */
-    /* left: -100px; */
+    cursor: pointer;
+    user-select: none;
+    outline: none;
     animation: rotateAnim1 2.2s;
     height: 10.4%;
 }
 
 .content-box .bar-img .bar-img-c {
-    /* position: absolute; */
-    /* top: 187px; */
-    /* left: -100px; */
+    cursor: pointer;
+    user-select: none;
+    outline: none;
     height: 10.4%;
     animation: rotateAnim1 2s;
 }
 
 .content-box .bar-img .bar-img-d {
-    /* position: absolute; */
-    /* top: 252px; */
-    /* left: -100px; */
+    cursor: pointer;
+    user-select: none;
+    outline: none;
     height: 10.4%;
     margin-bottom: 2%;
     animation: rotateAnim1 1.8s;
 }
 
 .content-box .bar-img .bar-img-e {
-    /* position: absolute; */
-    /* top: 332px; */
-    /* left: -100px; */
+    cursor: pointer;
+    user-select: none;
+    outline: none;
     height: 10.4%;
     animation: rotateAnim1 1.6s;
 }
 
 .content-box .bar-img .bar-img-f {
-    /* position: absolute; */
-    /* top: 397px; */
-    /* left: -100px; */
+    cursor: pointer;
+    user-select: none;
+    outline: none;
     height: 10.4%;
     animation: rotateAnim1 1.4s;
 }
 
 .content-box .bar-img .bar-img-g {
-    /* position: absolute; */
-    /* top: 462px; */
-    /* left: -100px; */
+    cursor: pointer;
+    user-select: none;
+    outline: none;
     height: 10.4%;
     animation: rotateAnim1 1.2s;
 }
 
 .content-box .bar-img .bar-img-h {
-    /* position: absolute; */
-    /* top: 527px; */
-    /* left: -100px; */
+    cursor: pointer;
+    user-select: none;
+    outline: none;
     height: 12%;
     animation: rotateAnim1 1s;
 }
@@ -163,7 +163,7 @@ li {
 .content-box .bar-img-i {
     position: absolute;
     top: 15%;
-    left: 37%;
+    left: 39%;
     animation: rotateAnim 0.8s;
 }
 
@@ -217,7 +217,7 @@ li {
 
 .content_lower {
     background: #535353;
-    height: 820px;
+    height: 420px;
 }
 
 .lower_1 {
@@ -242,7 +242,7 @@ li {
     font-size: 30px;
     color: #fff;
     text-align: center;
-    padding:30px 0;
+    padding:20px 0;
 }
 
 .content .about {
@@ -267,12 +267,15 @@ li {
 .enterprise_img {
     text-align: center;
 }
-
-.swiper-slide {
-    /* width: 130px; */
+.swiper-slide{
+    text-align: center;
+}
+ .swiper-slide .describe-text{
+    padding-top: 20px;
+    color: #fff;
 }
 
-.block {
+.swiper-slide .block {
     width: 130px;
     height: 160px;
 }
@@ -350,8 +353,8 @@ li {
 
 .swiper-container {
     width: 1024px;
-    padding-left: 41px;
-    padding-right: 4px;
+    padding-left: 23px;
+    padding-right: 23px;
     margin: 10px auto 0 ;
 
 }

@@ -172,12 +172,11 @@
         <div class='content_lower'>
             <div class='scrollflow -pop -opacity lower_1'>HONOR OF QUALIFICATION</div>
             <div class='scrollflow -pop -opacity lower_2'>资质荣誉</div>
-            <div class='scrollflow -slide-bottom -opacity desc lower_3'>
-                <div>荣获“高新技术企业”认证；</div>
-                <div>8项专利 6项软著</div>
+            <div class='scrollflow -pop -opacity lower_3'>
+                <div>荣获“高新技术企业”认证；8项专利 6项软著</div>
             </div>
             <!-- 展示图 -->
-            <div class='displayIagram'>
+            <!-- <div class='displayIagram'>
                 <div onclick="closeImg(this)">
                     <img class='active img-size img' src='../img/certificate.png' />
                 </div>
@@ -196,27 +195,33 @@
                 <div onclick="closeImg(this)">
                     <img class='img-size img5' src='../img/certificate5.png' />
                 </div>
-            </div>
+            </div> -->
             <!-- 轮播图 -->
             <div class="swiper-container" id="swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img onclick='showImg("img")' class='block' src='../img/certificate.png' />
+                        <img class='block' src='../img/certificate.png' />
+                        <div class='describe-text'>荣誉证书</div>
                     </div>
                     <div class="swiper-slide">
-                        <img onclick='showImg("img1")' class='block' src='../img/certificate1.png' />
+                        <img class='block' src='../img/certificate1.png' />
+                        <div class='describe-text'>荣誉证书</div>
                     </div>
                     <div class="swiper-slide">
-                        <img onclick='showImg("img2")' class='block' src='../img/certificate2.png' />
+                        <img class='block' src='../img/certificate2.png' />
+                        <div class='describe-text'>荣誉证书</div>
                     </div>
                     <div class="swiper-slide">
-                        <img onclick='showImg("img3")' class='block' src='../img/certificate3.png' />
+                        <img class='block' src='../img/certificate3.png' />
+                        <div class='describe-text'>荣誉证书</div>
                     </div>
                     <div class="swiper-slide">
-                        <img onclick='showImg("img4")' class='block' src='../img/certificate4.png' />
+                        <img class='block' src='../img/certificate4.png' />
+                        <div class='describe-text'>荣誉证书</div>
                     </div>
                     <div class="swiper-slide">
-                        <img onclick='showImg("img5")' class='block' src='../img/certificate5.png' />
+                        <img class='block' src='../img/certificate5.png' />
+                        <div class='describe-text'>荣誉证书</div>
                     </div>
                 </div>
                 <div class="swiper-button-prev swiper-button-white"></div>
@@ -408,18 +413,18 @@
             let box = document.querySelector('.up-inspect');
             box.classList.remove('active')
         }
-        function showImg(value) {
-            let bigImgNodeList = document.querySelectorAll(".img-size");
-            bigImgNodeList.forEach(function (value, index) {
-                value.classList.remove('active');
-            });
+        // function showImg(value) {
+        //     let bigImgNodeList = document.querySelectorAll(".img-size");
+        //     bigImgNodeList.forEach(function (value, index) {
+        //         value.classList.remove('active');
+        //     });
 
-            let img = document.querySelector('.img-size' + '.' + value);
-            img.classList.add('active');
-        }
-        function closeImg(obj) {
-            obj.classList.remove('active');
-        }
+        //     let img = document.querySelector('.img-size' + '.' + value);
+        //     img.classList.add('active');
+        // }
+        // function closeImg(obj) {
+        //     obj.classList.remove('active');
+        // }
 
     </script>
 </body>

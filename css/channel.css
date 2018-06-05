@@ -193,7 +193,8 @@ li {
 }
 
 .detail .Analysis .KnotImg {
-    width: 100%;
+    width: 1024px;
+    margin: 0 auto;
 }
 
 .Analysis {
@@ -216,6 +217,10 @@ li {
     top:8%;
     right: 20%;
 }
+.Analysis .img-top-text.f {
+    top:2%;
+    right: 20%;
+}
 
 .Analysis .img-top-text.b {
     top:4%;
@@ -232,8 +237,16 @@ li {
     right: 15%;
 }
 .Analysis .img-top-text.e {
-    top:10%;
-    left: 35%;
+    top: 8%;
+    right: 10%;
+}
+.Analysis .title-img{
+    width: 1024px;
+    margin: 0 auto;
+}
+.bousBottom .title-img{
+    width: 1024px;
+    margin: 0 auto;
 }
 
 .Analysis .img-top-text .text {

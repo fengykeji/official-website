@@ -23,7 +23,10 @@
 .button-icon:hover {
     background-color: #038ee3;
 }
-
+.button .button-icon{
+    text-align: center;
+    padding-top: 15px;
+}
 .button-icon .text {
     text-align: center;
     color: #fff;

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>主页</title>
     <script src='../js/jquery.min.js'></script>
     <script src='../js/jqueryScorll.js'></script>
     <script src="../js/swiper.min.js"></script>
@@ -24,8 +25,8 @@
                 <li onclick='caseField()' class='menu'>云案场</li>
                 <li onclick='housRes()' class='menu'>云售楼</li>
                 <li onclick='intermediary()' class='menu'>云中介</li>
-                <li class='menu'>云物业</li>
-                <li class='menu'>云商业</li>
+                <li onclick='property()' class='menu'>云物业</li>
+                <li onclick='business()' class='menu'>云商业</li>
                 <li class='menu'>云租赁</li>
                 <li class='menu'>云招商</li>
                 <li class="menu">
@@ -42,9 +43,9 @@
             <img class='content-img' src='../img/mask@2x.png' />
             <div class='bar-img pos-absolute'>
                 <img class=' bar-img-a' src='../img/Cloudlease@2x.png' />
-                <img class=' bar-img-b' src='../img/Cloudproperty@2x.png' />
+                <img onclick='property()' class=' bar-img-b' src='../img/Cloudproperty@2x.png' />
                 <img class=' bar-img-c' src='../img/Cloudinvestment@2x.png' />
-                <img class=' bar-img-d' src='../img/Cloudbusiness@2x.png' />
+                <img onclick='business()' class=' bar-img-d' src='../img/Cloudbusiness@2x.png' />
                 <img onclick='housRes()' class=' bar-img-e' src='../img/Salesofcloud@2x.png' />
                 <img onclick='caseField()' class=' bar-img-f' src='../img/fieldofcloud@2x.png' />
                 <img onclick='intermediary()' class=' bar-img-g' src='../img/Cloudmediation@2x.png' />
@@ -78,7 +79,7 @@
         </div>
         <div class="content_map_block">
             <div class='content_map'>
-                <div class='scrollflow -pop -opacity content_titleText'>CONTACT</div>
+                <div class='scrollflow -pop -opacity content_titleText'>CONTACT US</div>
                 <div class='scrollflow -slide-top -opacity desc content_text'>
                     <img src='../img/2.png' />
                     <div>联系我们</div>
@@ -87,7 +88,7 @@
                     <span class="alert">
                         <img src="../img/coordinates_bg@2x.png" />
                         <span class="text">
-                              <div class='text-1'>北京云算（分部）</div>
+                            <div class='text-1'>北京云算（分部）</div>
                             <div class='text-2'>地址：北京市海淀区信息路甲号20号B座02B室</div>
                             <div class='text-2'>电话：028-8549683 QQ：25700823</div>
                         </span>
@@ -107,9 +108,9 @@
                     <span class="alert">
                         <img src="../img/coordinates_bg@2x.png" />
                         <span class="text">
-                                <div class='text-1'>昆明云算（总部）</div>
-                                <div class='text-2'>地址：昆明市盘龙区联盟路实际俊园A-2-3008</div>
-                                <div class='text-2'>电话：028-8549683 QQ：25700823</div>
+                            <div class='text-1'>昆明云算（总部）</div>
+                            <div class='text-2'>地址：昆明市盘龙区联盟路实际俊园A-2-3008</div>
+                            <div class='text-2'>电话：028-8549683 QQ：25700823</div>
                         </span>
                     </span>
                 </span>
@@ -117,9 +118,9 @@
                     <span class="alert">
                         <img src="../img/coordinates_bg@2x.png" />
                         <span class="text">
-                                <div class='text-1'>台州云算（总部）</div>
-                                <div class='text-2'>地址：台州市路桥区电子数码城3楼3C07</div>
-                                <div class='text-2'>电话：028-8549683 QQ：25700823</div>
+                            <div class='text-1'>台州云算（总部）</div>
+                            <div class='text-2'>地址：台州市路桥区电子数码城3楼3C07</div>
+                            <div class='text-2'>电话：028-8549683 QQ：25700823</div>
                         </span>
                     </span>
                 </span>
@@ -137,7 +138,7 @@
         </div>
 
         <div class='enterprise_img'>
-            <div class='scrollflow -pop -opacity content_titleText'>CHOLICE CLOUD COMPUTING</div>
+            <div class='scrollflow -pop -opacity content_titleText'>BUSINESS PARTNERS OF CLOUD</div>
             <div class='scrollflow -slide-top -opacity desc content_text'>
                 <img src='../img/2.png' />
                 <div>他们也选择了云算科技</div>
@@ -170,7 +171,7 @@
             </div>
         </div>
         <div class='content_lower'>
-            <div class='scrollflow -pop -opacity lower_1'>HONOR OF QUALIFICATION</div>
+            <div class='scrollflow -pop -opacity lower_1'>HONOR AND REPUTATION</div>
             <div class='scrollflow -pop -opacity lower_2'>资质荣誉</div>
             <div class='scrollflow -pop -opacity lower_3'>
                 <div>荣获“高新技术企业”认证；8项专利 6项软著</div>
@@ -246,8 +247,8 @@
                             <span onclick='caseField()' class='block'>云案场</span>
                             <span onclick='housRes()' class='block'>云售楼</span>
                             <span onclick='intermediary()' class='block'>云中介</span>
-                            <span class='block'>云物业</span>
-                            <span class='block'>云商业</span>
+                            <span onclick='property()' class='block'>云物业</span>
+                            <span onclick='business()' class='block'>云商业</span>
                             <span class='block'>云租赁</span>
                             <span class='block'>云招商</span>
                         </div>
@@ -269,15 +270,15 @@
         <!-- 联系我们  申请体检 -->
         <div class='button'>
             <div onclick='inspect()' class='button-icon'>
-                <img src='../img/Clipboard@2x.png'/>
+                <img src='../img/Clipboard@2x.png' />
                 <div class='text'>申请体检</div>
             </div>
             <div class='button-icon'>
-                <img src='../img/ChatBubbles@2x.png'/>
+                <img src='../img/ChatBubbles@2x.png' />
                 <div class='text'>在线咨询</div>
             </div>
             <div onclick='callme()' class='button-icon'>
-                <img src='../img/Phone2@2x.png'/>
+                <img src='../img/Phone2@2x.png' />
                 <div class='text'>联系我们</div>
             </div>
         </div>
@@ -391,6 +392,12 @@
         }
         function caseField() {
             location.href = '../page/caseField/index.html'
+        }
+        function property() {
+            location.href = '../page/property/index.html'
+        }
+        function business() {
+            location.href = '../page/business/index.html'
         }
         function callme() {
             let box = document.querySelector(".up-box");

@@ -282,11 +282,11 @@ li {
     }
     .Analysis .img-top-text.b-top {
         top: 5%;
-        right:12%;
+        left:10%;
     }
     .Analysis .img-top-text.x {
         top: 6%;
-        right:15%;
+        right:10%;
     }
 
     .Analysis .img-top-text .text {
@@ -338,11 +338,11 @@ li {
 
     .bousBottom-text.q {
         top: 8%;
-       right: 54%;
+       right: 50%;
     }
     .bousBottom-text.qq {
-        top: 8%;
-       right: 30%;
+        top: 5%;
+       right: 10%;
     }
     .text-padding{
         padding-bottom: 20px;
@@ -360,11 +360,13 @@ li {
         color: #555e67;
     }
     .bousBottom-text.qq .text{
+        text-align: right;
         font-weight: 500;
         font-size: 32px;
         letter-spacing: 5px;
     }
     .bousBottom-text.qq .text1{
+        text-align: right;
         padding-top: 20px;
         font-size: 17px;
         font-weight: 600;

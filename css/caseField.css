@@ -31,8 +31,12 @@
 }
 
 .Analysis .img-top-text.a {
-    top: 5%;
+    top: 2%;
     left: 35%;
+}
+.Analysis .img-top-text.aa {
+    top: 2%;
+    left: 38%;
 }
 .Analysis .img-top-text.b {
     top: 4%;
@@ -46,7 +50,10 @@
     top: 2%;
     left: 38%;
 }
-
+.Analysis .img-top-text.dd {
+    top: 2%;
+    left: 46%;
+}
 .Analysis .img-top-text .text {
     font-weight: 500;
     font-size: 32px;

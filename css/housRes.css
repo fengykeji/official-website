@@ -74,6 +74,7 @@ li {
 }
 .content_img {
     width: 100%;
+    margin-top: 20px;
 }
 
 .content_titleText {
@@ -239,8 +240,9 @@ li {
 
 }
 .Analysis .img-top-text.img {
-    top: 3%;
-    left:20%;
+    top: 1%;
+    padding-top: 5px;
+    left:26%;
 }
 
 .Analysis .img-top-text.a {
@@ -249,7 +251,7 @@ li {
 }
 
 .Analysis .img-top-text.b {
-    top:16%;
+    top:11%;
     left: 12%;
 }
 

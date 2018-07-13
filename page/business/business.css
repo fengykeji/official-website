@@ -1,13 +1,13 @@
 body {
     margin: 0;
 }
-.intermediary{
+.business{
     min-width: 1248px;
 }
 .bottom {
     width: 100%;
     height: 285px;
-    background: url(../img/bottom_bg@2x.png)no-repeat top center;
+    background: url(../../img/bottom_bg@2x.png)no-repeat top center;
     position: relative;
 }
 
@@ -90,7 +90,7 @@ li {
 }
 .pos-relative .img-text-icon{
     position: absolute;
-    width: 58%;
+    width: 50%;
     top:19%;
     left:5%;
     animation: rotateAnim1 1s;
@@ -104,7 +104,6 @@ li {
     }
 }
 .content-background {
-    height: 770px;
     padding: 50px 0;
 }
 
@@ -123,13 +122,11 @@ li {
 }
 
 .content-img .img {
-    width: 100%;
 }
 
 .hous {
     text-align: center;
     background-color: #f6f6f6;
-    margin-top: 90px;
 }
 
 .housImg-block {}
@@ -162,26 +159,29 @@ li {
     font-weight: normal;
     font-size: 15px;
 }
-
+.bousBottom{
+    text-align: right;
+}
+.bousBottom .img{
+    width: 100%;
+}
 .bousBottom-text {
     text-align: left;
     font-size: 22px;
     font-weight: 500;
-    position: relative;
-    top: -60px;
-    left: -50px;
+    position: absolute;
+    top: 40px;
+    left: -70px;
 }
 
 .bousBottom-text.a {
-
-    top: -680px;
-    left: 80px;
+    top: 320px;
+    left: 267px;
 }
 
 .bousBottom-text.b {
-
-    top: -100px;
-    left: 80px;
+    top: 155px;
+    left: 10px;
 }
 
 .bousBottom {
@@ -269,16 +269,19 @@ li {
     }
 
     .Analysis .img-top-text.a {
-        top: 1%;
-        right:15%;
+        top: 3%;
+        left:12%;
     }
-
+    .Analysis .img-top-text.aq {
+        top: 16%;
+        left:10%;
+    }
     .Analysis .img-top-text.b {
         top: 50%;
         right:15%;
     }
     .Analysis .img-top-text.x {
-        top: 6%;
+        top: 13%;
         right:15%;
     }
 
@@ -288,7 +291,12 @@ li {
         letter-spacing: 5px;
         text-align: right;
     }
-
+    .Analysis .img-top-text .text3 {
+        font-weight: 500;
+        font-size: 32px;
+        letter-spacing: 5px;
+        text-align: left;
+    }
     .Analysis .img-top-text .text1 {
         padding-top: 20px;
         font-size: 17px;
@@ -297,7 +305,14 @@ li {
         color: #555e67;
         text-align: right;
     }
-
+    .Analysis .img-top-text .text2 {
+        padding-top: 20px;
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        color: #555e67;
+        text-align: left;
+    }
     .Analysis .tip {
         text-align: right;
         margin-right: 9px;
@@ -316,11 +331,33 @@ li {
     }
 
     .bousBottom-text.q {
-        top: 7%;
-        left:11%;
+        top: 16%;
+        left:12%;
+    }
+    .bousBottom-text.qx {
+        top: 10%;
+        right:12%;
     }
     .text-padding{
         padding-bottom: 20px;
+    }
+    .text-padding.display{
+        padding-bottom: 20px;
+        display: inline-block;
+    }
+    .bousBottom-text.qx .text{
+        text-align: right;
+        font-weight: 500;
+        font-size: 32px;
+        letter-spacing: 5px;
+    }
+    .bousBottom-text.qx .text1{
+        text-align: right;
+        padding-top: 20px;
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        color: #555e67;
     }
     .bousBottom-text.q .text{
         font-weight: 500;

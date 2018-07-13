@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>云中介</title>
     <script src='../../js/jquery.min.js'></script>
     <script src='../../js/jqueryScorll.js'></script>
     <script src="../../js/swiper.min.js"></script>
@@ -25,10 +25,10 @@
                 <li onclick='caseField()' class='menu'>云案场</li>
                 <li onclick='housRes()' class='menu'>云售楼</li>
                 <li onclick='intermediary()' class='menu'>云中介</li>
-                <li class='menu'>云物业</li>
-                <li class='menu'>云商业</li>
+                <li onclick='property()' class='menu'>云物业</li>
+                <li onclick='business()' class='menu'>云商业</li>
                 <li class='menu'>云租赁</li>
-                <li class='menu'>云招商</li>
+                <li    onclick='investment()' class='menu'>云招商</li>
                 <li class="menu">
                     <img class='phoneImg' src='../../img/Phone@2x.png' />
                 </li>
@@ -41,7 +41,7 @@
     <div class='intermediary'>
         <div class='pos-relative'>
             <img class='content_img' src='../../img/mediation_banner@7x.png' />
-            <img class='img-text-icon' src='../../img/text@2x11z1a.png'/>
+            <img class='img-text-icon' src='../../img/text@2x11z1a.png' />
         </div>
         <div class='content-background'>
             <div class="content">
@@ -60,15 +60,15 @@
                 <div class="scrollflow -pop -opacity housMenu">
                     <span class="housMenu-block active" onclick="changeMenu(0)">
                         <div>房源管理</div>
-                        <div class='housMenu-text'>CUSTOMER MANAGEMENT</div>
+                        <div class='housMenu-text'>ROOMS MANAGEMENT</div>
                     </span>
                     <span class="housMenu-block" onclick="changeMenu(1)">
                         <div>客源管理</div>
-                        <div class='housMenu-text'>TRANSACTION MANAGEMENT</div>
+                        <div class='housMenu-text'>CUSTOMER MANAGEMENT</div>
                     </span>
                     <span class="housMenu-block" onclick="changeMenu(2)">
                         <div>交易管理</div>
-                        <div class='housMenu-text'>FINANCUAL MANAGEMENT</div>
+                        <div class='housMenu-text'>TRANSACTION MANAGEMENT</div>
                     </span>
                 </div>
                 <div class="detail-block">
@@ -94,7 +94,7 @@
                         <div class='Analysis pos-relative'>
                             <img class='img' src='../../img/4@2x.png' />
                             <div class='scrollflow -slide-left -opacity img-top-text a pos-absolute'>
-                                <div class='text'>SPECIFICATION SURVEY</div>
+                                <div class='text'>STANDARDIZED PROSPECTING</div>
                                 <div class='tip'>
                                     <img src='../../img/2.png' />
                                 </div>
@@ -107,7 +107,7 @@
                         <div class='Analysis pos-relative'>
                             <img class='img' src='../../img/5@2x.png' />
                             <div class='scrollflow -slide-left -opacity img-top-text b pos-absolute'>
-                                <div class='text'>DATA SYNCHRONIZATION</div>
+                                <div class='text'>DATATA SYNCHRONIZATION</div>
                                 <div class='tip'>
                                     <img src='../../img/2.png' />
                                 </div>
@@ -151,7 +151,7 @@
                         <div class='Analysis pos-relative'>
                             <img class='img' src='../../img/4@3x.png' />
                             <div class='scrollflow -slide-left -opacity img-top-text a pos-absolute'>
-                                <div class='text'>HIGHLY MATCH</div>
+                                <div class='text'>HIGHLY MATCHED</div>
                                 <div class='tip'>
                                     <img src='../../img/2.png' />
                                 </div>
@@ -164,7 +164,7 @@
                         <div class='Analysis pos-relative'>
                             <img class='img' src='../../img/5@4x.png' />
                             <div class='scrollflow -slide-right -opacity bousBottom-text q pos-absolute'>
-                                <div class='text'>ABILITY TO IMPROVE</div>
+                                <div class='text'>IMPROVE PROFESSIONAL COMPETENCE</div>
                                 <div class='tip2'>
                                     <img src='../../img/2.png' />
                                 </div>
@@ -176,7 +176,7 @@
                         <div class='Analysis pos-relative'>
                             <img class='img' src='../../img/6@5x.png' />
                             <div class='scrollflow -slide-right -opacity bousBottom-text q pos-absolute'>
-                                <div class='text'>AUTOMATIC REMING</div>
+                                <div class='text'>AUTOMATIC REMINDER</div>
                                 <div class='tip2'>
                                     <img src='../../img/2.png' />
                                 </div>
@@ -207,7 +207,7 @@
                         <div class='Analysis  pos-relative'>
                             <img class='img' src='../../img/4@2x1.png' />
                             <div class='scrollflow -slide-left -opacity img-top-text a pos-absolute'>
-                                <div class='text'>CONTRACT PRESENTATION</div>
+                                <div class='text'>AGENCY MANAGEMENT</div>
                                 <div class='tip'>
                                     <img src='../../img/2.png' />
                                 </div>
@@ -220,7 +220,7 @@
                         <div class='Analysis  pos-relative'>
                             <img class='img' src='../../img/5@2x2.png' />
                             <div class='scrollflow -slide-left -opacity img-top-text x pos-absolute'>
-                                <div class='text'>CONTRACT TO SHOW</div>
+                                <div class='text'>CONTRACT MANAGEMENT</div>
                                 <div class='tip'>
                                     <img src='../../img/2.png' />
                                 </div>
@@ -252,10 +252,10 @@
                             <span onclick='caseField()' class='block'>云案场</span>
                             <span onclick='housRes()' class='block'>云售楼</span>
                             <span onclick='intermediary()' class='block'>云中介</span>
-                            <span class='block'>云物业</span>
-                            <span class='block'>云商业</span>
+                            <span onclick='property()' class='block'>云物业</span>
+                            <span onclick='business()' class='block'>云商业</span>
                             <span class='block'>云租赁</span>
-                            <span class='block'>云招商</span>
+                            <span    onclick='investment()' class='block'>云招商</span>
                         </div>
                     </span>
                     <span class='right'>
@@ -275,15 +275,15 @@
         <!-- 联系我们  申请体检 -->
         <div class='button'>
             <div onclick='inspect()' class='button-icon'>
-                <img src='../../img/Clipboard@2x.png'/>
+                <img src='../../img/Clipboard@2x.png' />
                 <div class='text'>申请体检</div>
             </div>
             <div class='button-icon'>
-                <img src='../../img/ChatBubbles@2x.png'/>
+                <img src='../../img/ChatBubbles@2x.png' />
                 <div class='text'>在线咨询</div>
             </div>
             <div onclick='callme()' class='button-icon'>
-                <img src='../../img/Phone2@2x.png'/>
+                <img src='../../img/Phone2@2x.png' />
                 <div class='text'>联系我们</div>
             </div>
         </div>
@@ -387,7 +387,7 @@
             });
         }
 
-      function intermediary() {
+        function intermediary() {
             location.href = '../intermediary/index.html'
         }
         function channel() {
@@ -402,7 +402,15 @@
         function caseField() {
             location.href = '../caseField/index.html'
         }
-
+        function property() {
+            location.href = '../property/index.html'
+        }
+        function business() {
+            location.href = '../business/index.html'
+        }
+        function investment() {
+            location.href = '../investment/index.html'
+        }
         function callme() {
             let box = document.querySelector(".up-box");
             let classList = box.classList;

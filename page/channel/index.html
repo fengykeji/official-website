@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>云渠道</title>
     <script src='../../js/jquery.min.js'></script>
     <script src='../../js/jqueryScorll.js'></script>
     <script src="../../js/swiper.min.js"></script>
@@ -25,10 +25,10 @@
                 <li onclick='caseField()' class='menu'>云案场</li>
                 <li onclick='housRes()' class='menu'>云售楼</li>
                 <li onclick='intermediary()' class='menu'>云中介</li>
-                <li class='menu'>云物业</li>
-                <li class='menu'>云商业</li>
+                <li onclick='property()' class='menu'>云物业</li>
+                <li onclick='business()' class='menu'>云商业</li>
                 <li class='menu'>云租赁</li>
-                <li class='menu'>云招商</li>
+                <li onclick='investment()' class='menu'>云招商</li>
                 <li class="menu">
                     <img class='phoneImg' src='../../img/Phone@2x.png' />
                 </li>
@@ -59,15 +59,15 @@
                 <div class="scrollflow -pop -opacity housMenu">
                     <span class="housMenu-block active" onclick="changeMenu(0)">
                         <div>项目管理</div>
-                        <div class='housMenu-text'>CUSTOMER MANAGEMENT</div>
+                        <div class='housMenu-text'>PROJECT MANAGEMENT</div>
                     </span>
                     <span class="housMenu-block" onclick="changeMenu(1)">
                         <div>推荐管理</div>
-                        <div class='housMenu-text'>TRANSACTION MANAGEMENT</div>
+                        <div class='housMenu-text'>RECOMMENDED MANAGEMENT</div>
                     </span>
                     <span class="housMenu-block" onclick="changeMenu(2)">
                         <div>结佣管理</div>
-                        <div class='housMenu-text'>FINANCIAL MANAGEMENT</div>
+                        <div class='housMenu-text'>COMMISSION MANAGEMENT</div>
                     </span>
                 </div>
                 <div class="detail-block">
@@ -93,7 +93,7 @@
                         <div class='Analysis pos-relative'>
                             <img class='img' src='../../img/34@2x.png' />
                             <div class='scrollflow -slide-left -opacity img-top-text a pos-absolute'>
-                                <div class='text'>ITEM INFORMATION</div>
+                                <div class='text'>PROJECT INFORMATION</div>
                                 <div class='tip'>
                                     <img src='../../img/2.png' />
                                 </div>
@@ -117,7 +117,7 @@
                         <div class='Analysis pos-relative'>
                             <img class='img' src='../../img/36@2x.png' />
                             <div class='scrollflow -slide-left -opacity img-top-text f pos-absolute'>
-                                <div class='text'>MULTIDIMENSIONAL DISPLAY</div>
+                                <div class='text'>MULTI-DIMENSIONAL DISPLAY</div>
                                 <div class='tip'>
                                     <img src='../../img/2.png' />
                                 </div>
@@ -149,7 +149,7 @@
                         <div class='Analysis pos-relative'>
                             <img class='img' src='../../img/24@2x.png' />
                             <div class='scrollflow -slide-right -opacity img-top-text b pos-absolute'>
-                                <div class='text left'>AUTOMATICALL TO THE GUEST</div>
+                                <div class='text left'>AUTOMATIC JUDGMENT</div>
                                 <div class='tip left'>
                                     <img src='../../img/2.png' />
                                 </div>
@@ -161,7 +161,7 @@
                         <div class='Analysis pos-relative'>
                             <img class='img' src='../../img/25@2x.png' />
                             <div class='scrollflow -slide-left -opacity  img-top-text c pos-absolute'>
-                                <div class='text'>MULTIDIMENSIONAL DISPLAY</div>
+                                <div class='text'>QUICKLY CONFIRM</div>
                                 <div class='tip'>
                                     <img src='../../img/2.png' />
                                 </div>
@@ -174,7 +174,7 @@
                         <div class='Analysis pos-relative'>
                             <img class='img' src='../../img/26@2x.png' />
                             <div class='scrollflow -slide-left -opacity img-top-text d pos-absolute'>
-                                <div class='text'>OPERATION SPECIFICATION</div>
+                                <div class='text'>STANDARDIZED OPERATION</div>
                                 <div class='tip'>
                                     <img src='../../img/2.png' />
                                 </div>
@@ -206,7 +206,7 @@
                         <div class='Analysis pos-relative'>
                             <img class='img' src='../../img/14@2x.png' />
                             <div class='scrollflow -slide-left -opacity img-top-text e pos-absolute'>
-                                <div class='text'>FLEXIBLE SETTING RULES</div>
+                                <div class='text'>FLEXIBLE SETTING</div>
                                 <div class='tip'>
                                     <img src='../../img/2.png' />
                                 </div>
@@ -230,7 +230,7 @@
                         <div class='Analysis pos-relative'>
                             <img class='img' src='../../img/15@2x.png' />
                             <div class='scrollflow -slide-left -opacity img-top-text e pos-absolute'>
-                                <div class='text'>COMMISSION IS RIGOROUS</div>
+                                <div class='text'>RIGOROUS COMMISSION</div>
                                 <div class='tip'>
                                     <img src='../../img/2.png' />
                                 </div>
@@ -272,10 +272,10 @@
                             <span onclick='caseField()' class='block'>云案场</span>
                             <span onclick='housRes()' class='block'>云售楼</span>
                             <span onclick='intermediary()' class='block'>云中介</span>
-                            <span class='block'>云物业</span>
-                            <span class='block'>云商业</span>
+                            <span onclick='property()' class='block'>云物业</span>
+                            <span onclick='business()' class='block'>云商业</span>
                             <span class='block'>云租赁</span>
-                            <span class='block'>云招商</span>
+                            <span onclick='investment()' class='block'>云招商</span>
                         </div>
                     </span>
                     <span class='right'>
@@ -294,15 +294,15 @@
         <!-- 联系我们  申请体检 -->
         <div class='button'>
             <div onclick='inspect()' class='button-icon'>
-                <img src='../../img/Clipboard@2x.png'/>
+                <img src='../../img/Clipboard@2x.png' />
                 <div class='text'>申请体检</div>
             </div>
             <div class='button-icon'>
-                <img src='../../img/ChatBubbles@2x.png'/>
+                <img src='../../img/ChatBubbles@2x.png' />
                 <div class='text'>在线咨询</div>
             </div>
             <div onclick='callme()' class='button-icon'>
-                <img src='../../img/Phone2@2x.png'/>
+                <img src='../../img/Phone2@2x.png' />
                 <div class='text'>联系我们</div>
             </div>
         </div>
@@ -405,7 +405,7 @@
             });
         }
 
-     function intermediary() {
+        function intermediary() {
             location.href = '../intermediary/index.html'
         }
         function channel() {
@@ -419,6 +419,15 @@
         }
         function caseField() {
             location.href = '../caseField/index.html'
+        }
+        function property() {
+            location.href = '../property/index.html'
+        }
+        function business() {
+            location.href = '../business/index.html'
+        }
+        function investment() {
+            location.href = '../investment/index.html'
         }
         function callme() {
             let box = document.querySelector(".up-box");

@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>云售楼</title>
+    <title>云招商</title>
     <script src='../../js/jquery.min.js'></script>
     <script src='../../js/jqueryScorll.js'></script>
     <script src="../../js/swiper.min.js"></script>
     <link rel="stylesheet" href="../../css/swiper.min.css" />
     <link rel="stylesheet" href="../../css/button-3.css" />
-    <link rel="stylesheet" href="../../css/housRes.css" />
+    <link rel="stylesheet" href="./investment.css" />
 </head>
 <style>
 </style>
@@ -27,7 +27,7 @@
                 <li onclick='intermediary()' class='menu'>云中介</li>
                 <li onclick='property()' class='menu'>云物业</li>
                 <li onclick='business()' class='menu'>云商业</li>
-                <li class='menu'>云租赁</li>
+                <li   class='menu'>云租赁</li>
                 <li onclick='investment()' class='menu'>云招商</li>
                 <li class="menu">
                     <img class='phoneImg' src='../../img/Phone@2x.png' />
@@ -38,20 +38,20 @@
             </ul>
         </div>
     </div>
-    <div class='housRes'>
-        <div class='content-background-img'>
-            <img class='content_img' src='../../img/sales_banner@2x.png' />
-            <img class='img-text-icon' src='../../img/banner_text@2x.png' />
+    <div class='investment'>
+        <div class='pos-relative'>
+            <img class='content_img' src='../../img/Investment_banner@2x.png' />
+            <img class='img-text-icon' src='../../img/Investment_text@2x.png' />
         </div>
         <div class='content-background'>
             <div class="content">
-                <div class='scrollflow -pop -opacity content_titleText'>OPERATION FLOW</div>
+                <div class='scrollflow -pop -opacity content_titleText'>FUNCTIONAL BLUEPRINT</div>
                 <div class='scrollflow -slide-top -opacity  content_text'>
                     <img src='../../img/2.png' />
-                    <div>业务流程</div>
+                    <div>功能蓝图</div>
                 </div>
                 <div class='content-img'>
-                    <img class='scrollflow -slide-top -opacity img' src='../../img/businessprocess@2x.png' />
+                    <img class='scrollflow -pop -opacity img' src='../../img/Functionalblueprint@2x223.png' />
                 </div>
             </div>
         </div>
@@ -59,218 +59,193 @@
             <div class="housImg-block">
                 <div class="scrollflow -pop -opacity housMenu">
                     <span class="housMenu-block active" onclick="changeMenu(0)">
-                        <div>客户管理</div>
-                        <div class='housMenu-text'>CUSTOMER MANAGEMENT</div>
+                        <div>招商管理</div>
+                        <div class='housMenu-text'>INVESTMENT MANAGEMENT</div>
                     </span>
                     <span class="housMenu-block" onclick="changeMenu(1)">
-                        <div>交易管理</div>
-                        <div class='housMenu-text'>TRANSACTION MANAGEMENT</div>
+                        <div>租约管理</div>
+                        <div class='housMenu-text'>LEASE MANAGEMENT</div>
                     </span>
                     <span class="housMenu-block" onclick="changeMenu(2)">
-                        <div>财务管理</div>
-                        <div class='housMenu-text'>FINANCIAL MANAGEMENT</div>
+                        <div>租赁服务</div>
+                        <div class='housMenu-text'>LEASEHOLD SERVICE</div>
                     </span>
                 </div>
                 <div class="detail-block">
-                    <!-- 客户管理 -->
+                    <!-- 支付管理 -->
                     <div class="detail active">
-                        <div class='bousBottom'>
-                            <img class='scrollflow -slide-right -opacity left-img' src='../../img/customermanagement@2xh.png' />
-                            <img class='scrollflow -slide-left -opacity center-img' src='../../img/valuepoint_2@2xh.png' />
-                            <div class='bousBottom-text'>
-                                <div class='scrollflow -slide-left -opacity  transition'>
+                        <div class='bousBottom pos-relative'>
+                            <img class='scrollflow -pop -opacity' src='../../img/Deliverymanagement@2x.png' />
+                            <div class='scrollflow -pop -opacity  bousBottom-text'>
+                                <div class='text-padding'>
                                     <img src='../../img/circle_1@2x.png' />
-                                    <span class='bousBottom-text-head'>客户精细化跟进，提高置业顾问跟进能力</span>
+                                    <span class='bousBottom-text-head'>一键导入，“实测报告”报告，自动生成交房费用清单</span>
                                 </div>
-                                <div class='scrollflow -slide-left -opacity transition a'>
+                                <div class='text-padding'>
                                     <img src='../../img/circle_2@2x.png' />
-                                    <span class='bousBottom-text-head'>规范现场管理，简化驻场经理管理工作</span>
+                                    <span class='bousBottom-text-head'>能快速打印交房资料，如：入住通知单，补充协议等</span>
                                 </div>
-                                <div class='scrollflow -slide-left -opacity transition b'>
+                                <div class='text-padding'>
                                     <img src='../../img/circle_3@2x.png' />
-                                    <span class='bousBottom-text-head'>精准识别目标客户，提高客户转化率</span>
-                                </div>
-                                <div class='scrollflow -slide-left -opacity transition d'>
-                                    <img src='../../img/circle_4@2x.png' />
-                                    <span class='bousBottom-text-head'>实时监控储客情况，确保储客质量</span>
+                                    <span class='bousBottom-text-head'>规范的交付流程，提高工作效率</span>
                                 </div>
                             </div>
                         </div>
                         <div class='Analysis pos-relative'>
-                            <img class='img' src='../../img/4@2xh.png' />
-                            <div class='scrollflow -slide-right -opacity img-top-text b pos-absolute'>
-                                <div class='text left'>CUSTOMER FOLLOW-UP</div>
-                                <div class='tip left'>
-                                    <img src='../../img/2.png' />
-                                </div>
-                                <div class='text left'>客户跟进</div>
-                                <div class='text1 left'>详实的跟进记录</div>
-                                <div class='text1 left'>确保客户不再无故流失</div>
-                            </div>
-                        </div>
-                        <div class='Analysis pos-relative'>
-                            <img class='img' src='../../img/5@2xh.png' />
-                            <div class='scrollflow -slide-left -opacity img-top-text a pos-absolute'>
-                                <div class='text'>REMINDING CUSTOMER</div>
+                            <img class='img' src='../../img/delivery_1@2x.png' />
+                            <div class='scrollflow -slide-right -opacity img-top-text a pos-absolute'>
+                                <div class='text'>AUTO-CALCULATED AREA COMPLEMENT</div>
                                 <div class='tip'>
                                     <img src='../../img/2.png' />
                                 </div>
-                                <div class='text'>客户提醒</div>
-                                <div class='text1'>自动统计并提醒置业顾问超期未跟进的客户</div>
-                                <div class='text1'>简化驻场经理的管理难度</div>
-                                <div class='text1'>避免人为疏忽导致客户的流失</div>
+                                <div class='text'>自动计算面积补差</div>
+                                <div class='text2'>一键导入实测面积</div>
+                                <div class='text2'>自动计算补差面积</div>
+                                <div class='text2'>自动生成面积补差款</div>
                             </div>
                         </div>
                         <div class='Analysis pos-relative'>
-                            <img class='img' src='../../img/6@2xh.png' />
-                            <div class='scrollflow -slide-right -opacity img-top-text f pos-absolute'>
-                                <div class='text left'>DISTRIBUTE CUSTOMER</div>
-                                <div class='tip left'>
+                            <img class='img' src='../../img/delivery_2@2x.png' />
+                            <div class='scrollflow -slide-left -opacity img-top-text b pos-absolute'>
+                                <div class='text'>AUTOMATIC PRINTING</div>
+                                <div class='tip2'>
                                     <img src='../../img/2.png' />
                                 </div>
-                                <div class='text left'>客户分配</div>
-                                <div class='text1 left'>可实现对客户进行单一或批量分配管理</div>
-                                <div class='text1 left'>如：当多个置业顾问问对同一客户产生争议的情况</div>
-                                <div class='text1 left'>实用于单一客户分配管理</div>
-                                <div class='text1 left'>当置业顾问离职可采用批量客户分配管理</div>
+                                <div class='text3'>自动打印</div>
+                                <div class='text1'>快速打印入住通知书，入住缴款通知单</div>
+                                <div class='text1'>补充协议、领款单等各项缴费清单</div>
                             </div>
                         </div>
                         <div class='Analysis pos-relative'>
-                            <img class='img' src='../../img/7@2xh.png' />
-                            <div class='scrollflow -slide-left -opacity img-top-text a pos-absolute'>
-                                <div class='text'>CUSTOMER ANALYSIS</div>
-                                <div class='tip'>
+                            <img class='img' src='../../img/delivery_3@2x.png' />
+                            <div class='scrollflow -slide-left -opacity img-top-text b pos-absolute'>
+                                <div class='text'>IMPROVE EFFICIENCY</div>
+                                <div class='tip2'>
                                     <img src='../../img/2.png' />
                                 </div>
-                                <div class='text'>客户分析</div>
-                                <div class='text1'>多维度的对客户进行分析</div>
-                                <div class='text1'>自动生成客户统计报表</div>
-                                <div class='text1'>支持客户数据导入与导出</div>
+                                <div class='text3'>提高工作效率</div>
+                                <div class='text1'>严格规范的流程，大幅度的提升工作效率</div>
                             </div>
                         </div>
                     </div>
-                    <!-- 交易管理 -->
+                    <!-- 装修管理 -->
                     <div class="detail">
-                        <div class='bousBottom'>
-                            <img class='scrollflow -slide-right -opacity left-img' src='../../img/jtrading@2x.png' />
-                            <img class='scrollflow -slide-left -opacity center-img1' src='../../img/valuepoint@2x.png' />
-                            <div class='bousBottom-text'>
-                                <div class='scrollflow -slide-left -opacity  transition g'>
+                        <div class='bousBottom pos-relative'>
+                            <img class='scrollflow -pop -opacity' src='../../img/Decoratemanagement@2x.png' />
+                            <div class='scrollflow -slide-right -opacity  bousBottom-text b'>
+                                <div class='text-padding'>
                                     <img src='../../img/circle_1@2x.png' />
-                                    <span class='bousBottom-text-head'>统一销控，避免一房多卖</span>
+                                    <span class='bousBottom-text-head'>完善的装修办理流程，提高工作效率</span>
                                 </div>
-                                <div class='scrollflow -slide-left -opacity transition e'>
+                                <div class='text-padding'>
                                     <img src='../../img/circle_2@2x.png' />
-                                    <span class='bousBottom-text-head'>提高业务办理效率和准确性</span>
+                                    <span class='bousBottom-text-head'>实时监管装修过程，杜绝违规施工</span>
                                 </div>
-                                <div class='scrollflow -slide-left -opacity transition f'>
+                                <div class='text-padding'>
                                     <img src='../../img/circle_3@2x.png' />
-                                    <span class='bousBottom-text-head'>在线变更审批，保证销售上的数据与财务上的数据一致</span>
+                                    <span class='bousBottom-text-head'>严格的验收环节，保障安全无误</span>
                                 </div>
                             </div>
                         </div>
                         <div class='Analysis pos-relative'>
-                            <img class='img' src='../../img/j4@2x.png' />
-                            <div class='scrollflow -slide-right -opacity img-top-text b pos-absolute'>
-                                <div class='text left'>HOUSING RESOURCE DISPLAY</div>
-                                <div class='tip left'>
+                            <img class='img' src='../../img/decorate_1@2x.png' />
+                            <div class='scrollflow -slide-left -opacity img-top-text b-top pos-absolute'>
+                                <div class='text'>DECORATING AND HANDLING</div>
+                                <div class='tip2'>
                                     <img src='../../img/2.png' />
                                 </div>
-                                <div class='text left'>房源展示</div>
-                                <div class='text1 left'>实时为您展示房源信息</div>
-                                <div class='text1 left'>为售房提供助力</div>
+                                <div class='text3'>装修办理</div>
+                                <div class='text1'>装修各项手续和资料的办理</div>
+                                <div class='text1'>装修各项费用的生成和收取</div>
+                                <div class='text1'> 装修要求/规范及其他事件的通知和资料的发放</div>
                             </div>
                         </div>
                         <div class='Analysis pos-relative'>
-                            <img class='img' src='../../img/j5@2x.png' />
-                            <div class='scrollflow -slide-left -opacity img-top-text a pos-absolute'>
-                                <div class='text'>RANK-ORDER-CONTRACT</div>
+                            <img class='img' src='../../img/decorate_2@2x.png' />
+                            <div class='scrollflow -slide-right -opacity bousBottom-text q pos-absolute'>
+                                <div class='text'>DECORATION SUPERVISION</div>
                                 <div class='tip'>
                                     <img src='../../img/2.png' />
                                 </div>
-                                <div class='text'>排号-订单-合同</div>
-                                <div class='text1'>从排号-订单-合同全流程化管控</div>
-                                <div class='text1'>快速下单 支持在线审批和移动审批</div>
-                                <div class='text1'>自动生成对应统计报表</div>
+                                <div class='text'>装修巡视</div>
+                                <div class='text1'>实时装修状态提醒，杜绝违规施工，延期装修</div>
                             </div>
                         </div>
                         <div class='Analysis pos-relative'>
-                            <img class='img' src='../../img/j6@2x.png' />
-                            <div class='scrollflow -slide-right -opacity img-top-text e pos-absolute'>
-                                <div class='text left'>MODIFICATION MANAGEMENT</div>
-                                <div class='tip left'>
+                            <img class='img' src='../../img/decorate_3@2x.png' />
+                            <div class='scrollflow -slide-right -opacity bousBottom-text qq pos-absolute'>
+                                <div class='text'>QUALITY INSPECTION OF DECORATION</div>
+                                <div class='tip'>
                                     <img src='../../img/2.png' />
                                 </div>
-                                <div class='text left'>变更管理</div>
-                                <div class='text1 left'>支持自定义变更类型和审批流程</div>
-                                <div class='text1 left'>从变更申请-变更审批-变更执行 全流程管控</div>
-                                <div class='text1 left'>规避管理漏洞</div>
-                                <div class='text1 left'>实现在线和移动审批</div>
-                                <div class='text1 left'>提高工作效率</div>
-                            </div>
-                        </div>
-                        <div class='Analysis pos-relative'>
-                            <img class='img' src='../../img/j7@2x.png' />
-                            <div class='scrollflow -slide-right -opacity img-top-text b pos-absolute'>
-                                <div class='text left'>SALES ANALYSIS</div>
-                                <div class='tip left'>
-                                    <img src='../../img/2.png' />
-                                </div>
-                                <div class='text left'>销售分析</div>
-                                <div class='text1 left'>支持多维度销售数据分析</div>
-                                <div class='text1 left'>自动生成各种销售报表</div>
-                                <div class='text1 left'>支持销售数据导入与导出</div>
+                                <div class='text'>装修验收</div>
+                                <div class='text1'>多部门多岗位验收</div>
+                                <div class='text1'>规范验收标准，提高验收效率</div>
                             </div>
                         </div>
                     </div>
-                    <!-- 财务管理 -->
+                    <!-- 物业服务 -->
                     <div class="detail">
-                        <div class='bousBottom'>
-                            <img class='scrollflow -slide-right -opacity left-img2' src='../../img/financial@2x.png' />
-                            <img class='scrollflow -slide-left -opacity center-img2' src='../../img/valuepoint@2x.png' />
-                            <div class='bousBottom-text'>
-                                <div class='scrollflow -slide-left -opacity  transition m'>
+                        <div class='bousBottom pos-relative'>
+                            <img class='scrollflow -pop -opacity' src='../../img/propertymanagement@2x.png' />
+                            <div class='scrollflow -slide-right -opacity  bousBottom-text c-buttom'>
+                                <div class='text-padding'>
                                     <img src='../../img/circle_1@2x.png' />
-                                    <span class='bousBottom-text-head'>规范财务收款，提高业务办理效率和准确性</span>
+                                    <span class='bousBottom-text-head'>方便操作，第一时间掌握业主的诉求</span>
                                 </div>
-                                <div class='scrollflow -slide-left -opacity transition n'>
+                                <div class='text-padding'>
                                     <img src='../../img/circle_2@2x.png' />
-                                    <span class='bousBottom-text-head'>预期欠款提醒，加强欠款催收力度</span>
+                                    <span class='bousBottom-text-head'>任务分类，专人专用</span>
                                 </div>
-                                <div class='scrollflow -slide-left -opacity transition l'>
+                                <div class='text-padding'>
                                     <img src='../../img/circle_3@2x.png' />
-                                    <span class='bousBottom-text-head'>自动生成财务统计数据，加强财务监管</span>
+                                    <span class='bousBottom-text-head'>回访评分，助力员工考察</span>
                                 </div>
                             </div>
                         </div>
-                        <div class='Analysis pos-relative'>
-                            <img class='img' src='../../img/4@2x33.png' />
-                            <div class='scrollflow -pop -opacity img-top-text img pos-absolute'>
-                                <img src='../../img/text_1@2x.png' />
+                        <div class='Analysis  pos-relative'>
+                            <img class='img' src='../../img/property_1@2x.png' />
+                            <div class='scrollflow -slide-right -opacity img-top-text a pos-absolute'>
+                                <div class='text'>SERVICE CENTER</div>
+                                <div class='tip'>
+                                    <img src='../../img/2.png' />
+                                </div>
+                                <div class='text'>服务中心</div>
+                                <div class='text2'>第一时间收到客户信息</div>
+                                <div class='text2'>随时掌握进度</div>
                             </div>
                         </div>
-                        <div class='Analysis pos-relative'>
-                            <img class='img' src='../../img/5@2x33.png' />
-                            <div class='scrollflow -pop -opacity img-top-text img pos-absolute'>
-                                <img src='../../img/text_2@2x.png' />
+                        <div class='Analysis  pos-relative'>
+                            <img class='img' src='../../img/property_2@2x.png' />
+                            <div class='scrollflow -slide-left -opacity img-top-text x pos-absolute'>
+                                <div class='text3'>ALLOT TASK</div>
+                                <div class='tip2'>
+                                    <img src='../../img/2.png' />
+                                </div>
+                                <div class='text3'>分配任务</div>
+                                <div class='text1'>将任务进行分类，专人专用提高工作效率</div>
+                                <div class='text1'>提成比例 佣金金额</div>
+                                <div class='text1'> 及付款方式进行有效管理</div>
                             </div>
                         </div>
-                        <div class='Analysis pos-relative'>
-                            <img class='img' src='../../img/6@2x33.png' />
-                            <div class='scrollflow -pop -opacity img-top-text img pos-absolute'>
-                                <img src='../../img/text_3@2x.png' />
-                            </div>
-                        </div>
-                        <div class='Analysis pos-relative'>
-                            <img class='img' src='../../img/7@2x33.png' />
-                            <div class='scrollflow -pop -opacity img-top-text img pos-absolute'>
-                                <img src='../../img/text_4@2x.png' />
+                        <div class='Analysis  pos-relative'>
+                            <img class='img' src='../../img/property_1@2x.png' />
+                            <div class='scrollflow -slide-right -opacity img-top-text a pos-absolute'>
+                                <div class='text'>RESULTS AND EVALUATION</div>
+                                <div class='tip'>
+                                    <img src='../../img/2.png' />
+                                </div>
+                                <div class='text'>完成结果及评价</div>
+                                <div class='text2'>记录工作人员完成的时间及结果</div>
+                                <div class='text2'>记录业主对此处理结果的满意度</div>
+                                <div class='text2'>记录上级主管的考评</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <div class='bottom'>
             <div class='bottom-background'>
                 <div class='bottom-block'>
@@ -291,7 +266,7 @@
                             <span onclick='property()' class='block'>云物业</span>
                             <span onclick='business()' class='block'>云商业</span>
                             <span class='block'>云租赁</span>
-                            <span onclick='investment()' class='block'>云招商</span>
+                            <span onclick='investment()'  class='block'>云招商</span>
                         </div>
                     </span>
                     <span class='right'>
@@ -307,6 +282,7 @@
                 </div>
             </div>
         </div>
+
         <!-- 联系我们  申请体检 -->
         <div class='button'>
             <div onclick='inspect()' class='button-icon'>
@@ -322,6 +298,7 @@
                 <div class='text'>联系我们</div>
             </div>
         </div>
+
         <div onclick='close1()' class='up-box'>
             <div class='up-box-information'>
                 <div class='title'>云算全国联系方式</div>
@@ -409,17 +386,18 @@
     <script>
 
         function changeMenu(menuIndex) {
-            let menuNodes = document.querySelectorAll(".housMenu-block");
-            let detailNodes = document.querySelectorAll(".detail");
-            menuNodes.forEach(function (value, index) {
+            let menu = document.querySelectorAll(".housMenu-block");
+            let detail = document.querySelectorAll(".detail");
+            menu.forEach(function (value, index) {
                 value.classList.remove("active");
-                detailNodes[index].classList.remove("active");
+                detail[index].classList.remove("active");
                 if (menuIndex == index) {
                     value.classList.add("active");
-                    detailNodes[index].classList.add("active");
+                    detail[index].classList.add("active");
                 }
             });
         }
+
         function intermediary() {
             location.href = '../intermediary/index.html'
         }
@@ -465,7 +443,6 @@
             let box = document.querySelector('.up-inspect');
             box.classList.remove('active')
         }
-
 
 
     </script>

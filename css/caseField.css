@@ -17,6 +17,12 @@
     user-select: none;
     outline: none;
 }
+
+.Analysis .block-text{
+    font-size: 16px;
+    width: 100%;
+    margin-left: 24%;
+}
 .caseField{
     min-width: 1248px;
 }

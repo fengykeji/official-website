@@ -104,8 +104,6 @@ li {
     }
 }
 .content-background {
-    height: 770px;
-    padding: 50px 0;
 }
 
 .content {
@@ -129,7 +127,7 @@ li {
 .hous {
     text-align: center;
     background-color: #f6f6f6;
-    margin-top: 90px;
+    margin-top: 40px;
 }
 
 .housImg-block {}

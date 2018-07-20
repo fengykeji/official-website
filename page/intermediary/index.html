@@ -27,8 +27,8 @@
                 <li onclick='intermediary()' class='menu'>云中介</li>
                 <li onclick='property()' class='menu'>云物业</li>
                 <li onclick='business()' class='menu'>云商业</li>
-                <li class='menu'>云租赁</li>
-                <li    onclick='investment()' class='menu'>云招商</li>
+                <li onclick='lease()' class='menu'>云租赁</li>
+                <li onclick='investment()' class='menu'>云招商</li>
                 <li class="menu">
                     <img class='phoneImg' src='../../img/Phone@2x.png' />
                 </li>
@@ -254,8 +254,8 @@
                             <span onclick='intermediary()' class='block'>云中介</span>
                             <span onclick='property()' class='block'>云物业</span>
                             <span onclick='business()' class='block'>云商业</span>
-                            <span class='block'>云租赁</span>
-                            <span    onclick='investment()' class='block'>云招商</span>
+                            <span onclick='lease()' class='block'>云租赁</span>
+                            <span onclick='investment()' class='block'>云招商</span>
                         </div>
                     </span>
                     <span class='right'>
@@ -384,7 +384,9 @@
                 }
             });
         }
-
+        function lease() {
+            location.href = '../housRes/index.html'
+        }
         function intermediary() {
             location.href = '../intermediary/index.html'
         }
@@ -431,7 +433,13 @@
             box.classList.remove('active')
         }
 
-
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?7ed8d03d30559a063525044dba0479a3";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
     </script>
 </body>
 

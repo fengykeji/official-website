@@ -287,7 +287,10 @@ li {
     width: 130px;
     height: 160px;
 }
-
+.swiper-slide .block1 {
+    width: 170px;
+    height: 160px;
+}
 .certificates {
     text-align: center;
     position: relative;

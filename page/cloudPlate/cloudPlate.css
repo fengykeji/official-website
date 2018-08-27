@@ -1,13 +1,13 @@
 body {
     margin: 0;
 }
-.intermediary{
+.investment{
     min-width: 1248px;
 }
 .bottom {
     width: 100%;
     height: 285px;
-    background: url(../img/bottom_bg@2x.png)no-repeat top center;
+    background: url(../../img/bottom_bg@2x.png)no-repeat top center;
     position: relative;
 }
 
@@ -28,7 +28,6 @@ body {
 }
 .content_img {
     width: 100%;
-    padding-top: 45px;
 }
 
 .top-block .top {
@@ -89,10 +88,10 @@ li {
     text-align: center;
 }
 .pos-relative .img-text-icon{
+    width: 28%;
     position: absolute;
-    width: 58%;
     top:19%;
-    left:5%;
+    left: 20%;
     animation: rotateAnim1 1s;
 }
 @keyframes rotateAnim1 {
@@ -104,6 +103,7 @@ li {
     }
 }
 .content-background {
+    height: 770px;
 }
 
 .content {
@@ -118,18 +118,54 @@ li {
 .content-img {
     width: 1024px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .content-img .img {
-    width: 100%;
+    
 }
-
+.Cloudsandtable_Text{
+    width: 72%;
+    margin-left: 30px;
+    margin-top: 40px;
+}
 .hous {
     text-align: center;
     background-color: #f6f6f6;
-    margin-top: 40px;
+}
+.swiper-container {
+    margin-bottom:10px;
+    width: 1250px;
+height: auto;
 }
 
+.swiper-button-prev {
+    z-index: 99;
+  
+}
+.swiper-button-next.swiper-button-white, .swiper-container-rtl .swiper-button-prev.swiper-button-white{
+    color: #000;
+    background-image:url('../../img/arrow@2x.png')
+}
+.swiper-button-prev.swiper-button-white, .swiper-container-rtl .swiper-button-next.swiper-button-white{
+    color: #000;
+    background-image:url('../../img/arrow_1@2x.png')
+}
+.swiperBlock {
+    padding-right: 13px;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+    width: auto;
+    height: 560px;
+}
+.swiper-slide {
+    margin-top: 10px;
+}
+.broadcast{
+width: 200px;
+height: 120px;
+}
 .housImg-block {}
 
 .housMenu {
@@ -165,9 +201,9 @@ li {
     text-align: left;
     font-size: 22px;
     font-weight: 500;
-    position: relative;
-    top: -60px;
-    left: -50px;
+    position: absolute;
+    top: 60px;
+    right: -50px;
 }
 
 .bousBottom-text.a {
@@ -177,9 +213,12 @@ li {
 }
 
 .bousBottom-text.b {
-
-    top: -100px;
-    left: 80px;
+    top: 40px;
+    right:-20px;
+}
+.bousBottom-text.c-buttom{
+    top:400px;
+    left:-20px;
 }
 
 .bousBottom {
@@ -267,20 +306,30 @@ li {
     }
 
     .Analysis .img-top-text.a {
-        top: 1%;
-        right:15%;
+        top: 12%;
+        left:6%;
     }
 
     .Analysis .img-top-text.b {
-        top: 50%;
-        right:15%;
+        top: 15%;
+        right:7%;
+    }
+    .Analysis .img-top-text.b-top {
+        top: 5%;
+        left:10%;
     }
     .Analysis .img-top-text.x {
-        top: 6%;
-        right:15%;
+        top: 10%;
+        right:12%;
     }
 
     .Analysis .img-top-text .text {
+        font-weight: 500;
+        font-size: 32px;
+        letter-spacing: 5px;
+        text-align: left;
+    }
+    .Analysis .img-top-text .text3 {
         font-weight: 500;
         font-size: 32px;
         letter-spacing: 5px;
@@ -295,13 +344,26 @@ li {
         color: #555e67;
         text-align: right;
     }
+    .Analysis .img-top-text .text2 {
+        padding-top: 20px;
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        color: #555e67;
+        text-align: left;
+    }
 
     .Analysis .tip {
-        text-align: right;
+        text-align: left;
         margin-right: 9px;
+        position: relative;
+    }
+    .Analysis .tip1 {
+        text-align: left;
+        margin-top: 50px;
     }
     .Analysis .tip2 {
-        text-align: left;
+        text-align: right;
         margin-right: 9px;
     }
 
@@ -314,8 +376,12 @@ li {
     }
 
     .bousBottom-text.q {
-        top: 7%;
-        left:11%;
+        top: 8%;
+       right: 50%;
+    }
+    .bousBottom-text.qq {
+        top: 5%;
+       right: 10%;
     }
     .text-padding{
         padding-bottom: 20px;
@@ -326,6 +392,20 @@ li {
         letter-spacing: 5px;
     }
     .bousBottom-text.q .text1{
+        padding-top: 20px;
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        color: #555e67;
+    }
+    .bousBottom-text.qq .text{
+        text-align: right;
+        font-weight: 500;
+        font-size: 32px;
+        letter-spacing: 5px;
+    }
+    .bousBottom-text.qq .text1{
+        text-align: right;
         padding-top: 20px;
         font-size: 17px;
         font-weight: 600;

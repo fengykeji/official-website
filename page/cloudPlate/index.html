@@ -5,206 +5,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>云案场</title>
+    <title>云沙盘</title>
     <script src='../../js/jquery.min.js'></script>
     <script src='../../js/jqueryScorll.js'></script>
     <script src="../../js/swiper.min.js"></script>
     <link rel="stylesheet" href="../../css/swiper.min.css" />
     <link rel="stylesheet" href="../../css/button-3.css" />
-    <link rel="stylesheet" href="../../css/caseField.css" />
+    <link rel="stylesheet" href="./cloudPlate.css" />
 </head>
 <style>
 </style>
 
 <body>
-    <div class='caseField'>
-        <div class="top-block">
-            <div class='top'>
-                <img onclick='login()' class="login_icon" src='../../img/logo@2x.png' />
-                <ul class="menuList">
-                    <li onclick='channel()' class='menu'>云渠道</li>
-                    <li onclick='caseField()' class='menu'>云案场</li>
-                    <li onclick='housRes()' class='menu'>云售楼</li>
-                    <li onclick='intermediary()' class='menu'>云中介</li>
-                    <li onclick='property()' class='menu'>云物业</li>
-                    <li onclick='business()' class='menu'>云商业</li>
-                    <li onclick='lease()' class='menu'>云租赁</li>
-                    <li onclick='investment()' class='menu'>云招商</li>
-                    <li onclick='cloudplate()' class='menu'>云沙盘</li>
-                    <li class="menu">
-                        <img class='phoneImg' src='../../img/Phone@2x.png' />
-                    </li>
-                    <li class="menu nopadding">
-                        <span class='menu_num'>400-0809-202</span>
-                    </li>
-                </ul>
-            </div>
+    <div class="top-block">
+        <div class='top'>
+            <img onclick='login()' class="login_icon" src='../../img/logo@2x.png' />
+            <ul class="menuList">
+                <li onclick='channel()' class='menu'>云渠道</li>
+                <li onclick='caseField()' class='menu'>云案场</li>
+                <li onclick='housRes()' class='menu'>云售楼</li>
+                <li onclick='intermediary()' class='menu'>云中介</li>
+                <li onclick='property()' class='menu'>云物业</li>
+                <li onclick='business()' class='menu'>云商业</li>
+                <li onclick='lease()' class='menu'>云租赁</li>
+                <li onclick='investment()' class='menu'>云招商</li>
+                <li onclick='cloudplate()' class='menu'>云沙盘</li>
+                <li class="menu">
+                    <img class='phoneImg' src='../../img/Phone@2x.png' />
+                </li>
+                <li class="menu nopadding">
+                    <span class='menu_num'>400-0809-202</span>
+                </li>
+            </ul>
         </div>
-        <div class='content_img pos-relative'>
-            <img class='img' src='../../img/field_banner@2x.png' />
-            <img class='img-text-icon' src='../../img/text@2x11z.png' />
-        </div>
+    </div>
+    <div class='investment'>
         <div class='hous'>
             <div class="housImg-block">
-                <div class="scrollflow -pop -opacity housMenu">
-                    <span class="housMenu-block active" onclick="changeMenu(0)">
-                        <div>楼盘字典</div>
-                        <div class='housMenu-text'>BUILDING DICTIONARY</div>
-                    </span>
-                    <span class="housMenu-block" onclick="changeMenu(1)">
-                        <div>自主选房</div>
-                        <div class='housMenu-text'>AUTONOMOUS SELECTION</div>
-                    </span>
-                    <span class="housMenu-block" onclick="changeMenu(2)">
-                        <div>户型鉴赏</div>
-                        <div class='housMenu-text'>HOUSE APPRECIATION</div>
-                    </span>
-                </div>
                 <div class="detail-block">
-                    <!-- 楼盘字典 -->
                     <div class="detail active">
-                        <div class='Analysis pos-relative'>
-                            <div class='scrollflow -pop -opacity img-top-text a pos-absolute'>
-                                <div class='text'>PROJECT ADVANTAGE</div>
-                                <div class='tip'>
-                                    <img src='../../img/2.png' />
-                                </div>
-                                <div class='text'>项目优势</div>
-                            </div>
-                            <img class='img' src='../../img/2@2x.png' />
+                        <div class='pos-relative'>
+                            <img class='content_img' src='../../img/Cloudsandtable_1@2x.png' />
+                            <img class='img-text-icon' src='../../img/Cloudsandtable_Text_1@2x.png' />
                         </div>
-
                         <div class='Analysis pos-relative'>
-                            <div class='scrollflow -pop -opacity img-top-text aa pos-absolute'>
-                                <div class='text'>LOCATION ZONE</div>
+                            <img class='img' src='../../img/Cloudsandtable_2@2x.png' />
+                            <div class='scrollflow -slide-right -opacity img-top-text a pos-absolute'>
                                 <div class='tip'>
-                                    <img src='../../img/2.png' />
+                                    <img src='../../img/Cloudsandtable_Text_2@2x.png' class='Cloudsandtable_Text' />
                                 </div>
-                                <div class='text'>区位</div>
                             </div>
-                            <img class='img' src='../../img/3@21x.png' />
                         </div>
+                        <div class='Analysis pos-relative'>
+                            <img class='img' src='../../img/Cloudsandtable_3@2x.png' />
+                            <div class='scrollflow -slide-left -opacity img-top-text b pos-absolute'>
+                                <div class='tip'>
+                                    <img src='../../img/Cloudsandtable_text_3@2x.png' />
+                                </div>
+                            </div>
+                        </div>
+                        <div class='Analysis pos-relative'>
+                            <img class='img' src='../../img/Cloudsandtable_4@2x.png' />
+                            <div class='scrollflow -slide-left -opacity img-top-text b pos-absolute'>
+                                <div class='tip'>
+                                    <img src='../../img/Cloudsandtable_text_4@2x.png' />
+                                </div>
+                            </div>
+                        </div>
+                        <!--轮播图-->
                         <div class='Analysis pos-relative'>
                             <!-- 轮播图 -->
                             <div class="swiper-container" id="swiper">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <img class='block' src='../../img/bank@2x.png' />
-                                        <div class='block-text'>银行</div>
+                                        <img class='swiperBlock' src='../../img/cloudPlate5_2@2x.png' />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img class='block' src='../../img/hospital@2x.png' />
-                                        <div class='block-text'>医院</div>
+                                        <img class='swiperBlock' src='../../img/cloudPlate5_3@2x.png' />
                                     </div>
                                     <div class="swiper-slide">
-                                        <img class='block' src='../../img/mall@2x.png' />
-                                        <div class='block-text'>商场</div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img class='block' src='../../img/park@2x.png' />
-                                        <div class='block-text'>公园</div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img class='block' src='../../img/school@2x.png' />
-                                        <div class='block-text'>学校</div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img class='block' src='../../img/traffic@2x.png' />
-                                        <div class='block-text'>交通</div>
+                                        <img class='swiperBlock' src='../../img/cloudPlate5_1@2x.png' />
                                     </div>
                                 </div>
+                                <div class="swiper-pagination"></div>
                                 <div class="swiper-button-prev swiper-button-white"></div>
                                 <div class="swiper-button-next swiper-button-next swiper-button-white"></div>
                             </div>
 
-                            <div class='scrollflow -pop -opacity img-top-text a pos-absolute'>
-                                <div class='text'>SURROUNDING FACILITIES</div>
-                                <div class='tip'>
-                                    <img src='../../img/2.png' />
-                                </div>
-                                <div class='text'>周边配套</div>
-                            </div>
                         </div>
-                        <!-- 轮播图文字描述 -->
-                        <!-- <div class='periphery'>
-                            <div class='content'>
-                                <div class='title-text'>
-                                    <span class='name'>职业技术教育中心</span>
-                                    <span class='name-E'>Vocational and Technical Education Center</span>
-                                </div>
-                                <div class='but-text'>学校位于圣桦公馆西侧，地理位置优越，校园用地2887亩，建筑面积97万平方米。现有全日制在校本科生30031人，专科生1304人，博硕士研究生5486人。设有17个教学学院、1个沉积地质研究院、1个地质调查研究院1所独立学校（职业技术教育中心）。</div>
-                            </div>
-                        </div> -->
-                    </div>
-                    <!-- 自主选房 -->
-                    <div class="detail">
+
+
+
+
                         <div class='Analysis pos-relative'>
-                            <img class='img' src='../../img/2@22x13.png' />
-                            <div class='scrollflow -pop -opacity img-top-text d pos-absolute'>
-                                <div class='text'>GENERAL LAYOUT</div>
+                            <img class='img' src='../../img/Cloudsandtable_6@2x.png' />
+                            <div class='scrollflow -slide-right -opacity img-top-text a pos-absolute'>
                                 <div class='tip'>
-                                    <img src='../../img/2.png' />
+                                    <img src='../../img/Cloudsandtable_6_text@2x.png' />
                                 </div>
-                                <div class='text'>总平图</div>
                             </div>
                         </div>
                         <div class='Analysis pos-relative'>
-                            <img class='img' src='../../img/2@22x11.png' />
-                            <div class='scrollflow -pop -opacity img-top-text d pos-absolute'>
-                                <div class='text'>CHOOSE ROOM</div>
+                            <img class='img' src='../../img/Cloudsandtable_7@2x.png' />
+                            <div class='scrollflow -slide-left -opacity img-top-text b pos-absolute'>
                                 <div class='tip'>
-                                    <img src='../../img/2.png' />
+                                    <img src='../../img/Cloudsandtable_7_text@2x.png' />
                                 </div>
-                                <div class='text'>选择房间</div>
                             </div>
                         </div>
                         <div class='Analysis pos-relative'>
-                            <img class='img' src='../../img/2@22x12.png' />
-                            <div class='scrollflow -pop -opacity img-top-text d pos-absolute'>
-                                <div class='text'>ROOM DETAILS</div>
+                            <img class='img' src='../../img/Cloudsandtable_8@2x.png' />
+                            <div class='scrollflow -slide-left -opacity img-top-text x pos-absolute'>
                                 <div class='tip'>
-                                    <img src='../../img/2.png' />
+                                    <img src='../../img/Cloudsandtable_8_text@2x.png' />
                                 </div>
-                                <div class='text'>房间详情图</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- 户型鉴赏 -->
-                    <div class="detail">
-                        <div class='Analysis pos-relative'>
-                            <img class='img' src='../../img/2@2x22.png' />
-                            <div class='scrollflow -pop -opacity img-top-text dd pos-absolute'>
-                                <div class='text white'>PLAN</div>
-                                <div class='tip'>
-                                    <img src='../../img/whiteline@3x.png' />
+                                <div class='tip1'>
+                                    <img src='../../img/Cloudsandtable_8_1@2x.png' />
                                 </div>
-                                <div class='text white'>平面图</div>
-                            </div>
-                        </div>
-                        <div class='Analysis pos-relative'>
-                            <img class='img' src='../../img/3@2x23.png' />
-                            <div class='scrollflow -pop -opacity img-top-text d pos-absolute'>
-                                <div class='text white'>3D-EFFECT DRAW</div>
-                                <div class='tip'>
-                                    <img src='../../img/whiteline@3x.png' />
-                                </div>
-                                <div class='text white'>3D效果图</div>
-                            </div>
-                        </div>
-                        <div class='Analysis pos-relative'>
-                            <img class='img' src='../../img/4@2x24.png' />
-                            <div class='scrollflow -pop -opacity img-top-text d pos-absolute'>
-                                <div class='text white'>SAMPLE ROOM</div>
-                                <div class='tip'>
-                                    <img src='../../img/whiteline@3x.png' />
-                                </div>
-                                <div class='text white'>样板间</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <div class='bottom'>
             <div class='bottom-background'>
                 <div class='bottom-block'>
@@ -226,7 +150,7 @@
                             <span onclick='business()' class='block'>云商业</span>
                             <span onclick='lease()' class='block'>云租赁</span>
                             <span onclick='investment()' class='block'>云招商</span>
-                            <span onclick='cloudplate()' class='block'>云沙盘</span>
+
                         </div>
                     </span>
                     <span class='right'>
@@ -240,6 +164,7 @@
                 </div>
             </div>
         </div>
+
         <!-- 联系我们  申请体检 -->
         <div class='button'>
             <div onclick='inspect()' class='button-icon'>
@@ -255,12 +180,14 @@
                 <div class='text'>联系我们</div>
             </div>
         </div>
+
         <div onclick='close1()' class='up-box'>
             <div class='up-box-information'>
                 <div class='title'>云算全国联系方式</div>
                 <div class='content'>
                     <div class='row'>
-                        <span class='row-name'>成都</br>云算</span>
+                        <span class='row-name'>成都
+                            <br/>云算</span>
                         <span class='information'>
                             <div class='name-phone'>
                                 <span>联系人：陆经理</span>
@@ -270,17 +197,19 @@
                         </span>
                     </div>
                     <div class='row'>
-                        <span class='row-name'>重庆</br>云算</span>
+                        <span class='row-name'>重庆
+                            <br/>云算</span>
                         <span class='information'>
                             <div class='name-phone'>
-                                <span>联系人：温经理</span>
+                                <span>联系人：温经理 </span>
                                 <span class='phone'>联系电话：18180475772</span>
                             </div>
                             <div>联系地址：（分部）上清寺环球广场13楼</div>
                         </span>
                     </div>
                     <div class='row'>
-                        <span class='row-name'>昆明</br>云算</span>
+                        <span class='row-name'>昆明
+                            <br/>云算</span>
                         <span class='information'>
                             <div class='name-phone'>
                                 <span>联系人：邹经理</span>
@@ -290,17 +219,19 @@
                         </span>
                     </div>
                     <div class='row'>
-                        <span class='row-name'>台州</br>云算</span>
+                        <span class='row-name'>台州
+                            <br/>云算</span>
                         <span class='information'>
                             <div class='name-phone'>
-                                <span>联系人：谷经理</span>
+                                <span>联系人：谷经理 </span>
                                 <span class='phone'>联系电话：15983804766</span>
                             </div>
                             <div>联系地址：（分部）台州市路桥区电子数码城3楼3C07</div>
                         </span>
                     </div>
                     <div class='row'>
-                        <span class='row-name'>凯里</br>云算</span>
+                        <span class='row-name'>凯里
+                            <br/>云算</span>
                         <span class='information'>
                             <div class='name-phone'>
                                 <span>联系人：薛经理</span>
@@ -335,43 +266,17 @@
         </div>
     </div>
     <script>
-        let swiper = new Swiper('#swiper', {
-            spaceBetween: 4,
-            loop: true,
-            // effect : 'coverflow',
-            slideShadows: true,
-            speed: 300,
-
-            effect: 'coverflow',
-            slidesPerView: 2,
-            centeredSlides: true,
-            coverflowEffect: {
-                rotate: 20,
-                stretch: 50,
-                depth: 900,
-                slideShadows: true
-            },
-            autoplay: {
-                delay: 2000
+        var mySwiper = new Swiper('#swiper', {
+            direction: 'horizontal',
+            pagination: {
+                el: '.swiper-pagination',
             },
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
-        });
+        })
 
-        function changeMenu(menuIndex) {
-            let menuNodes = document.querySelectorAll(".housMenu-block");
-            let detailNodes = document.querySelectorAll(".detail");
-            menuNodes.forEach(function (value, index) {
-                value.classList.remove("active");
-                detailNodes[index].classList.remove("active");
-                if (menuIndex == index) {
-                    value.classList.add("active");
-                    detailNodes[index].classList.add("active");
-                }
-            });
-        }
         function cloudplate() {
             location.href = '../cloudplate/index.html'
         }
@@ -402,7 +307,6 @@
         function investment() {
             location.href = '../investment/index.html'
         }
-
         function callme() {
             let box = document.querySelector(".up-box");
             let classList = box.classList;
@@ -425,7 +329,6 @@
             box.classList.remove('active')
         }
 
-
         var _hmt = _hmt || [];
         (function () {
             var hm = document.createElement("script");
@@ -433,8 +336,6 @@
             var s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(hm, s);
         })();
-
-
     </script>
 </body>
 

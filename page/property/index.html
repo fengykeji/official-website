@@ -29,6 +29,7 @@
                 <li onclick='business()' class='menu'>云商业</li>
                 <li onclick='lease()' class='menu'>云租赁</li>
                 <li onclick='investment()' class='menu'>云招商</li>
+                <li onclick='cloudplate()' class='menu'>云沙盘</li>
                 <li class="menu">
                     <img class='phoneImg' src='../../img/Phone@2x.png' />
                 </li>
@@ -267,6 +268,7 @@
                             <span onclick='business()' class='block'>云商业</span>
                             <span onclick='lease()' class='block'>云租赁</span>
                             <span onclick='investment()' class='block'>云招商</span>
+                            <span onclick='cloudplate()' class='block'>云沙盘</span>
                         </div>
                     </span>
                     <span class='right'>
@@ -394,6 +396,9 @@
                     detail[index].classList.add("active");
                 }
             });
+        }
+        function cloudplate() {
+            location.href = '../cloudplate/index.html'
         }
         function lease() {
             location.href = '../housRes/index.html'
